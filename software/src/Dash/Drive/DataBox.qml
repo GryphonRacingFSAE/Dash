@@ -10,21 +10,22 @@ Item {
 
     onValueChanged: () => {
         display_value.text = value.toFixed(precision)
-        if (value < low) {
+        if (title == "Speed") {
+            display_value.color = "black"
+        } else if (value < low) {
             display_value.color = "blue"
         } else if (value > high) {
             display_value.color = "red"
         } else {
             display_value.color = "green"
         }
-
-        if (title == "Speed") {
-            display_value.color = "black"
-        }
     }
 
+    //display text
     Text {
-        font.pointSize: parent.fontSize
+        font.family: "Consolas"
+        
+        font.pointSize: parent.fontSize * 2/3
         text: parent.title
         color: "black"
         font.bold: true
@@ -34,8 +35,10 @@ Item {
         }
     }
 
+    //value text
     Text {
         id: display_value
+        font.family: "Consolas"
         font.pointSize: parent.fontSize * 20 / 8
         text: ""
         color: "black"

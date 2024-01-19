@@ -1,11 +1,7 @@
 from conan import ConanFile
 from conan.tools.cmake import CMake, CMakeToolchain, CMakeDeps
 from conan.tools.layout import cmake_layout
-from conan.tools.build import cross_building
-from conan.tools.files import copy
-from conan.tools.env import Environment
 from conan.errors import ConanInvalidConfiguration
-import os
 
 class GRCDash(ConanFile):
     name = "GRCDash"
@@ -21,7 +17,7 @@ class GRCDash(ConanFile):
         "dev": "full"
     }
 
-    generators = "VirtualRunEnv", "VirtualBuildEnv", "qt"
+    generators = "VirtualRunEnv", "VirtualBuildEnv"
     exports_sources = "CMakeLists.txt", "src/*"
 
     def validate(self):
@@ -29,6 +25,7 @@ class GRCDash(ConanFile):
             raise ConanInvalidConfiguration("Non-Linux backend for canbus not supported")
 
     def configure(self):
+        self.options["qt"].shared = True
         self.options["qt"].qtdeclarative = True
         self.options["qt"].qtshadertools = True
         self.options["qt"].with_libjpeg = "libjpeg"
@@ -56,9 +53,8 @@ class GRCDash(ConanFile):
         deps.generate()
 
     def build(self):
-        env = Environment()
-        env.append_path("PATH", self.deps_cpp_info["qt"].bin_paths[0].replace("\\", "/")) # Add qmake & windeployqt to path
-        with env.vars(self).apply():
-            cmake = CMake(self)
-            cmake.configure()
-            cmake.build()
+        cmake = CMake(self)
+        cmake.configure(variables={
+            "QT_PATH": self.deps_cpp_info["qt"].bin_paths[0].replace("\\", "/") # Add qmake & windeployqt to path
+        })
+        cmake.build()

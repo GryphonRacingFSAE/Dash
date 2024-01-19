@@ -14,6 +14,9 @@ jobs:
     env:
       NOT_ON_C3I: 1
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./software
 
     steps:
       - uses: actions/checkout@v3
@@ -41,12 +44,10 @@ jobs:
 
           run: |
             conan remote add grc ${{ secrets.CONAN_REMOTE_URL }} --force
-            conan user -r grc ${{ secrets.CONAN_USER }} -p ${{ secrets.CONAN_PASSWORD }}
             conan remove "*" -f
-            conan install . -if build -pr:h ConanProfiles/pib+-Release.ini -pr:b ConanProfiles/pib+-Release.ini -r grc -o dev="front" -c tools.system.package_manager:mode=install -c tools.system.package_manager:sudo=True
-            conan build . -if build
-            cp -r build/Release/bin/2022 /artifacts
-            cp -r build/Release/bin/2019 /artifacts
+            conan install software -if build -pr:h software/ConanProfiles/pib+-Release.ini -pr:b software/ConanProfiles/pib+-Release.ini -r grc -o dev="front" -c tools.system.package_manager:mode=install -c tools.system.package_manager:sudo=True
+            conan build software -if build
+            cp -r software/build/Release/bin /artifacts
 
       # - name: Build deploy bundle
       #   run: |

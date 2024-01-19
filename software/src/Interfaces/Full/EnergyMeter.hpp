@@ -8,8 +8,7 @@ namespace real {
 class EnergyMeter : public QObject, public CAN::DBCInterface<EnergyMeter> {
     Q_OBJECT
   public:
-    EnergyMeter(const std::string& dbc_file_path = "Energy_Meter_CAN_Messages.dbc")
-        : QObject(nullptr), DBCInterface(dbc_file_path) {
+    EnergyMeter(const std::string& dbc_file_path = "Energy_Meter_CAN_Messages.dbc") : QObject(nullptr), DBCInterface(dbc_file_path) {
         can_signal_dispatch["Current"] = &EnergyMeter::newCurrent;
         can_signal_dispatch["Voltage"] = &EnergyMeter::newVoltage;
     }
@@ -32,4 +31,4 @@ class EnergyMeter : public QObject, public CAN::DBCInterface<EnergyMeter> {
     static constexpr uint32_t timeout_ms = 500;
 };
 
-}
+} // namespace real

@@ -5,6 +5,7 @@
         <file>main2019.qml</file>
 
         <file>Drive/Drive.qml</file>
+        
         <file>Drive/Battery.qml</file>
         <file>Drive/DataBox.qml</file>
         <file>Drive/SpeedBox.qml</file>
@@ -13,10 +14,13 @@
         <file>Debug/Debug_B.qml</file>
         <file>Debug/Debug_C.qml</file>
         <file>Debug/Debug_D.qml</file>
+        <file>Debug/SMU_Temps.qml</file>
         <file>Debug/DataBox.qml</file>
+        <file>Debug/Segment.qml</file>
         <file>Debug/SectionHeader.qml</file>
 
         <file>Tuning/Tuning.qml</file>
+        <file>Tuning/TractionControl.qml</file>
     </qresource>
 
     <qresource prefix="/images">

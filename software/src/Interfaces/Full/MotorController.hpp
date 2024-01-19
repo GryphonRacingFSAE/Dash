@@ -8,8 +8,7 @@ namespace real {
 class MotorController : public QObject, public CAN::DBCInterface<MotorController> {
     Q_OBJECT
   public:
-    MotorController(const std::string& dbc_file_path = "20220510_Gen5_CAN_DB.dbc")
-        : QObject(nullptr), DBCInterface(dbc_file_path) {
+    MotorController(const std::string& dbc_file_path = "20220510_Gen5_CAN_DB.dbc") : QObject(nullptr), DBCInterface(dbc_file_path) {
         // DEBUG A
         can_signal_dispatch["INV_DC_Bus_Current"] = &MotorController::newDCBusCurrent;
 
@@ -20,8 +19,7 @@ class MotorController : public QObject, public CAN::DBCInterface<MotorController
         can_signal_dispatch["VCU_INV_Torque_Command"] = &MotorController::newRequestedTorque;
         can_signal_dispatch["INV_Module_B_Temp"] = &MotorController::newModuleBTemp;
         can_signal_dispatch["INV_Module_C_Temp"] = &MotorController::newModuleCTemp;
-        can_signal_dispatch["INV_Gate_Driver_Board_Temp"] =
-            &MotorController::newGateDriverBoardTemp;
+        can_signal_dispatch["INV_Gate_Driver_Board_Temp"] = &MotorController::newGateDriverBoardTemp;
         can_signal_dispatch["INV_Control_Board_Temp"] = &MotorController::newControlBoardTemp;
         can_signal_dispatch["INV_Coolant_Temp"] = &MotorController::newCoolantTemp;
         can_signal_dispatch["INV_Hot_Spot_Temp"] = &MotorController::newHotSpotTemp;
@@ -30,17 +28,14 @@ class MotorController : public QObject, public CAN::DBCInterface<MotorController
         can_signal_dispatch["INV_PWM_Frequency"] = &MotorController::newPWMFrequency;
         can_signal_dispatch["INV_Inverter_State"] = &MotorController::newInverterState;
         can_signal_dispatch["INV_Inverter_Run_Mode"] = &MotorController::newInverterRunMode;
-        can_signal_dispatch["INV_Inverter_Discharge_State"] =
-            &MotorController::newInverterActiveDischargeState;
-        can_signal_dispatch["INV_Inverter_Enable_Lockout"] =
-            &MotorController::newInverterEnableLockout;
+        can_signal_dispatch["INV_Inverter_Discharge_State"] = &MotorController::newInverterActiveDischargeState;
+        can_signal_dispatch["INV_Inverter_Enable_Lockout"] = &MotorController::newInverterEnableLockout;
         can_signal_dispatch["INV_BMS_Active"] = &MotorController::newBMSActive;
         can_signal_dispatch["INV_BMS_Limiting_Torque"] = &MotorController::newBMSLimitingTorque;
         can_signal_dispatch["INV_Limit_Max_Speed"] = &MotorController::newLimitMaxSpeed;
         can_signal_dispatch["INV_Limit_Hot_Spot"] = &MotorController::newLimitHotSpot;
         can_signal_dispatch["INV_Low_Speed_Limiting"] = &MotorController::newLowSpeedLimiting;
-        can_signal_dispatch["INV_Limit_Coolant_Derating"] =
-            &MotorController::newCoolantTempLimiting;
+        can_signal_dispatch["INV_Limit_Coolant_Derating"] = &MotorController::newCoolantTempLimiting;
 
         // DEBUG B
         can_signal_dispatch["INV_Analog_Input_1"] = &MotorController::newAnalogInput1;
@@ -67,8 +62,7 @@ class MotorController : public QObject, public CAN::DBCInterface<MotorController
 
     Q_INVOKABLE void clearFaultCodes() {
         // CM200 CAN Protocol V5.9 Section 2.3.1 and 2.3.3 (Address 20 or 0x14)
-        RetCode ans =
-            write(0x0C1, std::array<uint8_t, 8>{0x00, 0x14, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00});
+        RetCode ans = write(0x0C1, std::array<uint8_t, 8>{0x00, 0x14, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00});
 
         if (ans != RetCode::Success) {
             fmt::print("Failed to clear fault codes\n");
@@ -130,4 +124,4 @@ class MotorController : public QObject, public CAN::DBCInterface<MotorController
     static constexpr uint32_t timeout_ms = 500;
 };
 
-}
+} // namespace real

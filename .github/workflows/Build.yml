@@ -15,6 +15,9 @@ jobs:
       NOT_ON_C3I: 1
       LINUX_X86_64_BUILD_APP_IMAGE: 1
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./software
 
     steps:
       - uses: actions/checkout@v3

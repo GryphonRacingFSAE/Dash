@@ -1,4 +1,5 @@
 #include <cassert>
+#include <cstdint>
 #include <tools.hpp>
 
 // Mask for can errors
@@ -20,7 +21,7 @@ CanFormat CAN::frameFormat(const can_frame& frame) {
 }
 
 // Masks for the CAN frame ID
-canid_t CAN::frameId(const can_frame& frame) {
+uint32_t CAN::frameId(const can_frame& frame) {
     switch (frameFormat(frame)) {
     case CanFormat::Standard:
         return frame.can_id & CAN_SFF_MASK; // 11 LSB

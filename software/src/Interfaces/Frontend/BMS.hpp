@@ -55,4 +55,4 @@ class BMS : public QObject, public FakeInterface {
     void generateValues();
 };
 
-}
+} // namespace fake

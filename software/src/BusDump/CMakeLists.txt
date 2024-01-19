@@ -1,11 +1,6 @@
-set(CODE_FILES
-    BusDump.cpp
-    Dump.cpp
-)
+set(CODE_FILES BusDump.cpp Dump.cpp)
 
-set(HEADER_FILES
-    Dump.hpp
-)
+set(HEADER_FILES Dump.hpp)
 
 add_executable(BusDump ${CODE_FILES} ${HEADER_FILES})
 set_target_properties(BusDump PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin/$<0:>)

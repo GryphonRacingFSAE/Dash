@@ -1,0 +1,39 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+
+BS_:
+
+BU_:
+
+
+BO_ 2553869184 GENERAL_BROADCAST_0X1838F380: 8 Vector__XXX
+ SG_ Thermistor_ID : 7|16@0- (1,0) [0|799] "#" Vector__XXX
+ SG_ Thermistor_Temperature : 23|8@0- (1,0) [0|0] "C" Vector__XXX
+ SG_ Thermistor_Count : 31|8@0+ (1,0) [0|0] "#" Vector__XXX
+ SG_ Lowest_Temperature : 39|8@0- (1,0) [0|0] "C" Vector__XXX
+ SG_ Highest_Temperature : 47|8@0- (1,0) [0|0] "C" Vector__XXX
+ SG_ Highest_ID : 55|8@0+ (1,0) [0|0] "#" Vector__XXX
+ SG_ Lowest_ID : 63|8@0+ (1,0) [0|0] "#" Vector__XXX
+

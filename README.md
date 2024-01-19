@@ -23,6 +23,7 @@ sudo ip link set can0 up type can bitrate 1000000 # 1 mbps speed
 
 - Install [Python](https://docs.python.org/3/using/windows.html#using-python-on-windows) & ensure it is installed to PATH.
 - Install [CMake](https://cmake.org/download/) & ensure it is installed to PATH.
+- Install [Visual Studio 2022](https://visualstudio.microsoft.com/) & ensure the Desktop Development C++ extension is installed.
 
 ### Setup for MacOS
 - Ensure python3 version is up to date >3.7
@@ -32,7 +33,7 @@ sudo ip link set can0 up type can bitrate 1000000 # 1 mbps speed
 ### Universal
 - Install conan via pip
 ```bash
-python -m pip install conan # or python3 on MacOS
+python -m pip install conan==1.60.0 # or python3 on MacOS
 ```
 
 ## Installing Build Dependencies
@@ -68,7 +69,8 @@ conan build -if build .
 
 ```bash
 source build/activate_run.sh # RPi (maybe required on other linux distros)
-./build/Debug/bin/GryphonDash
+./build/Debug/bin/GryphonDash #(This runs the executable on RPi)
+./build/bin/GryphonDash.exe #(This is to run the executable on windows)
 source build/deactivate_run.sh # RPi (maybe required on other linux distros)
 ```
 

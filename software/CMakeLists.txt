@@ -7,16 +7,10 @@ message(STATUS "Build Type: ${CMAKE_BUILD_TYPE}, Flags: ${CMAKE_CXX_FLAGS}")
 
 if(MSVC)
     add_compile_options(/W4)
-    add_compile_options(
-        "$<$<CONFIG:RELEASE>:/O2>"
-        "$<$<CONFIG:DEBUG>:/Od>"
-    )
+    add_compile_options("$<$<CONFIG:RELEASE>:/O2>" "$<$<CONFIG:DEBUG>:/Od>")
 else()
     add_compile_options(-Wall -Wextra -pedantic)
-    add_compile_options(
-        "$<$<CONFIG:RELEASE>:-O3>"
-        "$<$<CONFIG:DEBUG>:-O0>"
-    )
+    add_compile_options("$<$<CONFIG:RELEASE>:-O3>" "$<$<CONFIG:DEBUG>:-O0>")
 endif()
 
 # Add DEBUG macro

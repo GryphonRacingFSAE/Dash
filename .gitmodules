@@ -1,3 +1,6 @@
 [submodule "hardware/KiCAD-Component-Library"]
 	path = hardware/KiCAD-Component-Library
 	url = https://github.com/GryphonRacingFSAE/KiCAD-Component-Library.git
+[submodule "software/src/Interfaces/DBCs"]
+	path = software/src/Interfaces/DBCs
+	url = https://github.com/GryphonRacingFSAE/DBCs.git

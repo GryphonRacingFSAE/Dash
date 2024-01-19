@@ -11,12 +11,8 @@
 
 using namespace CAN;
 
-RetCode Interface::startReceiving(const char* canbus_interface_name,
-                                  can_filter* filters,
-                                  const size_t num_of_filters,
-                                  uint32_t read_timeout_ms) {
-    if (this->openSocket(canbus_interface_name, filters, num_of_filters, read_timeout_ms) !=
-        RetCode::Success) {
+RetCode Interface::startReceiving(const char* canbus_interface_name, can_filter* filters, const size_t num_of_filters, uint32_t read_timeout_ms) {
+    if (this->openSocket(canbus_interface_name, filters, num_of_filters, read_timeout_ms) != RetCode::Success) {
         return RetCode::SocketErr;
     }
 
@@ -50,10 +46,7 @@ void Interface::stopReceiving() {
     ::close(m_socket);
 }
 
-RetCode Interface::openSocket(const char* canbus_interface_name,
-                              can_filter* filters,
-                              size_t filter_count,
-                              uint32_t read_timeout_ms) {
+RetCode Interface::openSocket(const char* canbus_interface_name, can_filter* filters, size_t filter_count, uint32_t read_timeout_ms) {
     m_socket = socket(PF_CAN, SOCK_RAW, CAN_RAW);
     if (m_socket < 0) {
         return RetCode::SocketErr;
@@ -65,9 +58,7 @@ RetCode Interface::openSocket(const char* canbus_interface_name,
     ioctl(m_socket, SIOCGIFINDEX, &ifr);
 
     if (filter_count > 0) {
-        if (setsockopt(
-                m_socket, SOL_CAN_RAW, CAN_RAW_FILTER, filters, filter_count * sizeof(can_filter)) <
-            0) {
+        if (setsockopt(m_socket, SOL_CAN_RAW, CAN_RAW_FILTER, filters, filter_count * sizeof(can_filter)) < 0) {
             return RetCode::SocketErr;
         }
     }

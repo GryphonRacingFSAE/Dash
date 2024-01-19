@@ -21,6 +21,7 @@ Item {
     }
 
     Text {
+        font.family: "Consolas"
         text: parent.title + ":  "
         font.pointSize: 10
         color: "white"
@@ -28,6 +29,7 @@ Item {
 
     Text {
         id: display_value
+        font.family: "Consolas"
         text: ""
         font.pointSize: 10
         font.bold: true

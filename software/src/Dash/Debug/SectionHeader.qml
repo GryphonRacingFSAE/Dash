@@ -18,6 +18,7 @@ Item {
             color: "black"
         }
         Text {
+            font.family: "Consolas"
             text: root.title
             font.pointSize: 12
             font.bold: true

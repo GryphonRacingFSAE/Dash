@@ -21,4 +21,4 @@ class EnergyMeter : public QObject, public FakeInterface {
     void generateValues();
 };
 
-}
+} // namespace fake

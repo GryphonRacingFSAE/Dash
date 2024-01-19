@@ -17,10 +17,7 @@ class Interface {
     virtual ~Interface();
 
   protected:
-    RetCode startReceiving(const char* canbus_interface_name,
-                           can_filter* filters,
-                           const size_t num_of_filters,
-                           uint32_t read_timeout_ms);
+    RetCode startReceiving(const char* canbus_interface_name, can_filter* filters, const size_t num_of_filters, uint32_t read_timeout_ms);
     void stopReceiving();
 
     // As of now, newFrame, newError and newTimeout should be extremely fast functions before
@@ -36,8 +33,7 @@ class Interface {
             return RetCode::InvalidParam;
         }
 
-        if ((address & 0x1FFFF800) &&
-            !extended) { // Check if there are any bits in the extended section.
+        if ((address & 0x1FFFF800) && !extended) { // Check if there are any bits in the extended section.
             return RetCode::InvalidParam;
         }
 
@@ -57,8 +53,7 @@ class Interface {
         return RetCode::Success;
     }
 
-    RetCode
-    write(uint32_t address, const uint8_t* payload, const uint8_t count, bool extended = false) {
+    RetCode write(uint32_t address, const uint8_t* payload, const uint8_t count, bool extended = false) {
         if (count > 8 || count < 1) { // Force count to be a good value
             return RetCode::InvalidParam;
         }
@@ -67,8 +62,7 @@ class Interface {
             return RetCode::InvalidParam;
         }
 
-        if ((address & 0x1FFFF800) &&
-            !extended) { // Check if there are any bits in the extended section.
+        if ((address & 0x1FFFF800) && !extended) { // Check if there are any bits in the extended section.
             return RetCode::InvalidParam;
         }
 
@@ -89,10 +83,7 @@ class Interface {
     }
 
   private:
-    RetCode openSocket(const char* canbus_interface_name,
-                       can_filter* filters,
-                       size_t filter_count,
-                       uint32_t read_timeout_ms);
+    RetCode openSocket(const char* canbus_interface_name, can_filter* filters, size_t filter_count, uint32_t read_timeout_ms);
     RetCode read(can_frame& frame);
     void readLoop();
 

@@ -6,6 +6,7 @@ import CAN.VCU
 Rectangle {
     id: root
     color: "black"
+    
 
     readonly property int rows: 11
     readonly property int columns: 14
@@ -102,6 +103,7 @@ Rectangle {
                     }
 
                     Text {
+                        font.family: "Consolas"
                         width: parent.width
                         height: parent.height
 
@@ -140,6 +142,7 @@ Rectangle {
             model: 6500/500 + 1
 
             Text {
+                font.family: "Consolas"
                 required property int index
 
                 width: parent.width/14
@@ -165,6 +168,7 @@ Rectangle {
             model: 100/10 + 1
 
             Text {
+                font.family: "Consolas"
                 required property int index
 
                 width: 20
@@ -180,6 +184,7 @@ Rectangle {
 
     // motor speed label
     Text {
+        font.family: "Consolas"
         width: box_matrix.width
         height: 46
 
@@ -198,6 +203,7 @@ Rectangle {
 
     // pedal travel label
     Text {
+        font.family: "Consolas"
         height: box_matrix.height
 
         anchors {
@@ -218,6 +224,7 @@ Rectangle {
 
     // profile indicators
     Text {
+        font.family: "Consolas"
         width: parent.width
 
         anchors {

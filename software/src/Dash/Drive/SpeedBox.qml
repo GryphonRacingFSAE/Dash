@@ -11,7 +11,8 @@ Item {
     }
 
     Text {
-        font.pointSize: parent.fontSize
+        font.family: "Consolas"
+        font.pointSize: parent.fontSize * 2/3
         text: parent.title
         color: "black"
         font.bold: true
@@ -23,6 +24,7 @@ Item {
 
     Text {
         id: display_value
+        font.family: "Consolas"
         font.pointSize: parent.fontSize * 20 / 6
         text: ""
         color: "black"

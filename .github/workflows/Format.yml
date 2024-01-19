@@ -19,7 +19,7 @@ jobs:
         if: always()
         uses: DoozyX/clang-format-lint-action@v0.15
         with:
-          source: './src'
+          source: './software/src'
           extensions: 'h,hpp,cpp,c'
           clangFormatVersion: 12
           style: file

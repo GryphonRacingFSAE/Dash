@@ -9,8 +9,7 @@ namespace demo {
 class MotorController : public QObject, public CAN::DBCInterface<MotorController>, fake::FakeInterface {
     Q_OBJECT
   public:
-    MotorController(const std::string& dbc_file_path = "20220510_Gen5_CAN_DB.dbc")
-        : QObject(nullptr), DBCInterface(dbc_file_path) {
+    MotorController(const std::string& dbc_file_path = "20220510_Gen5_CAN_DB.dbc") : QObject(nullptr), DBCInterface(dbc_file_path) {
         this->delay = std::chrono::milliseconds(20);
         can_signal_dispatch["INV_Motor_Speed"] = &MotorController::newMotorSpeed;
         can_signal_dispatch["INV_Motor_Temp"] = &MotorController::newMotorTemp;
@@ -24,8 +23,7 @@ class MotorController : public QObject, public CAN::DBCInterface<MotorController
 
     Q_INVOKABLE void clearFaultCodes() {
         // CM200DZ CAN Protocol V5.9 Section 2.3.1 and 2.3.3 (Address 20 or 0x14)
-        RetCode ans = CAN::Interface::write(
-            0x0C1, std::array<uint8_t, 8>{0x00, 0x14, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00});
+        RetCode ans = CAN::Interface::write(0x0C1, std::array<uint8_t, 8>{0x00, 0x14, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00});
 
         if (ans != RetCode::Success) {
             fmt::print("Failed to clear fault codes\n");
@@ -40,26 +38,24 @@ class MotorController : public QObject, public CAN::DBCInterface<MotorController
 
   public:
     static constexpr size_t num_of_filters = 3;
-    inline static can_filter filters[num_of_filters] = {
-        {
-            0x0A0,
-            0x7F0 // Grab all messages from 0xA0 to 0xAF
-        },
-        {
-            0x0B0,
-            0x7F0 // Grab all messages from 0xB0 to 0xBF
-        },
-        {
-            0x0C0,
-            0x7F0 // Grab all messages from 0xC0 to 0xCF
-        }
-    };
+    inline static can_filter filters[num_of_filters] = {{
+                                                            0x0A0,
+                                                            0x7F0 // Grab all messages from 0xA0 to 0xAF
+                                                        },
+                                                        {
+                                                            0x0B0,
+                                                            0x7F0 // Grab all messages from 0xB0 to 0xBF
+                                                        },
+                                                        {
+                                                            0x0C0,
+                                                            0x7F0 // Grab all messages from 0xC0 to 0xCF
+                                                        }};
 
     static constexpr uint32_t timeout_ms = 500;
     static constexpr uint32_t torque_slew_rate = 60; // 60 N.m/s
     std::atomic<float> requestedTorque = 0;
     std::atomic<float> outputTorque = 0;
-    
+
   signals:
     // DEBUG A
     void newDCBusCurrent(float current);
@@ -151,7 +147,6 @@ class MotorController : public QObject, public CAN::DBCInterface<MotorController
         emit newCommandedTorque(torque);
         emit newTorqueFeedback(torque);
 
-
         current += 0.1f;
         voltage += 0.1f;
         temp += 0.293f;
@@ -180,7 +175,7 @@ class MotorController : public QObject, public CAN::DBCInterface<MotorController
         }
         if (torque >= 100) {
             torque = 0.0f;
-        }   
+        }
 
         fmt::print("{}, {}\n", requestedTorque, outputTorque);
         if (outputTorque < requestedTorque) {
@@ -201,28 +196,29 @@ class MotorController : public QObject, public CAN::DBCInterface<MotorController
         float rollResistance = 0.04;
         float dragCoefficient = 0.75;
         float rho = 1.2; // 1.2kg/m^3
-        
+
         /*Equation to calculate Fd*/
         /*Fd = Cr * Mg + 1/2 * P * Cd * A * V^2*/
         float forceDrag = rollResistance * carMass * 9.81 + 0.5 * rho * dragCoefficient * area * velocity * velocity;
         float acceleration = ((outputTorque * gearRatio) / tireRadius - forceDrag) / carMass;
-        velocity += acceleration * 0.020; // 20 milliseconds
+        velocity += acceleration * 0.020;         // 20 milliseconds
         velocity = velocity < 0 ? 0.0 : velocity; // m/s
-
 
         float kmph = velocity / 1000 * 60 * 60;
         float rpm = kmph * 45.4;
         emit newMotorSpeed(rpm);
         int16_t rpm2 = (int16_t)rpm;
         uint16_t rpm3 = *reinterpret_cast<uint16_t*>(&rpm2);
-        
+
         // CM200DZ CAN Protocol V6.1
-        auto ans = CAN::Interface::write(0x0A5, std::array<uint8_t, 8>{0x00, 0x00, (uint8_t)(rpm3 & 0xFF), (uint8_t)(rpm3 >> 8), 0x00, 0x00, 0x00, 0x00});
-        
+        auto ans =
+            CAN::Interface::write(0x0A5, std::array<uint8_t, 8>{0x00, 0x00, (uint8_t)(rpm3 & 0xFF), (uint8_t)(rpm3 >> 8), 0x00, 0x00, 0x00, 0x00});
+
         if (ans != RetCode::Success) {
             fmt::print("Failed to send new rpm\n");
         }
     }
+
   private:
     void newRequestedTorqueHandler(float torque) {
         requestedTorque = torque;
