@@ -4871,8 +4871,11 @@
     (property "Datasheet" "~" (at 257.81 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 97b3b6d2-485c-459b-86f2-93888256badc))
-    (pin "2" (uuid 98057419-c992-4fcc-b14b-3725d236af2d))
+    (property "LCSC" "C22966" (at 257.81 208.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3c441b21-1410-4d7f-be83-47450948f224))
+    (pin "2" (uuid 3dd20a24-4f62-49a5-9c62-2760359024f7))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -4922,8 +4925,8 @@
     (property "Datasheet" "~" (at 375.92 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 595fe80b-e093-4902-b572-f545496fe43e))
-    (pin "2" (uuid 310e17d4-5e20-40c3-8848-4d7cd7d95be8))
+    (pin "1" (uuid 62b4ac9f-61dc-4e72-9fa2-603975b4d00b))
+    (pin "2" (uuid 52a3e677-59fd-432e-b631-8cb9081722ff))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -4948,8 +4951,11 @@
     (property "Datasheet" "~" (at 377.19 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 19dedca2-c7e9-4c0d-a433-b78862a5f02d))
-    (pin "2" (uuid 4b2eda8a-8689-4844-9408-c0e8afd150db))
+    (property "LCSC" "C4184" (at 377.19 190.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c1c1230c-f3a2-47ff-a394-763f63c64d86))
+    (pin "2" (uuid 828e58d0-1853-4d40-9391-d589b540fa31))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -4974,8 +4980,8 @@
     (property "Datasheet" "~" (at 196.85 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d4e375fa-0704-4831-88a9-d8b657dfcf19))
-    (pin "2" (uuid 7ab4a6a6-b53a-433d-bd9b-6ce0182bab47))
+    (pin "1" (uuid 3ae871e3-292c-4de5-9a4a-391e412cf933))
+    (pin "2" (uuid 1f503826-dd16-4ec6-873d-c25ace75efa3))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5000,14 +5006,14 @@
     (property "Datasheet" "~" (at 165.1 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 95c9c829-9d66-47c1-bd24-88639dfcab58))
-    (pin "2" (uuid 26161611-767d-454f-b034-73c428180fdd))
-    (pin "3" (uuid f6239118-c9d0-44b1-bf40-ccf894726741))
-    (pin "4" (uuid 435bb9fa-7fb7-4109-96e7-f5612f2d9ea7))
-    (pin "5" (uuid 1d19bd8c-6877-42a1-b0f7-45f720aa2dc2))
-    (pin "6" (uuid bae43001-d6e6-4e1f-8065-69781d4859be))
-    (pin "7" (uuid 07fffe7d-83c9-498c-aa5f-abb6c61b429f))
-    (pin "8" (uuid 734a0855-4512-480e-9146-3bbb9cfe3e19))
+    (pin "1" (uuid 5b8d8ae8-8d43-43b3-9143-02cafdd52a55))
+    (pin "2" (uuid 9af64b31-cb06-4c2a-8848-6c50d67418ff))
+    (pin "3" (uuid be718af5-13b9-4588-ada1-2704513d4b1d))
+    (pin "4" (uuid c02b869c-0f04-463c-ab3a-22fad1679cbd))
+    (pin "5" (uuid 2a310917-c177-4d93-b9a5-052d354d47d3))
+    (pin "6" (uuid 6b68016f-e06b-4bb3-8fd2-2463b817f548))
+    (pin "7" (uuid dd282665-121d-46f1-a384-f57e665050ad))
+    (pin "8" (uuid dfe29d26-76ba-425f-b754-234618c03065))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5032,9 +5038,12 @@
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG100V080ELPD.pdf" (at 116.84 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 69462a26-71a6-4970-934a-ff286c5e4327))
-    (pin "2" (uuid eec39683-7ad9-49d2-9b01-93756ee16a20))
-    (pin "3" (uuid 13b73ff3-249c-4cb9-9b37-973a71e8af3c))
+    (property "LCSC" "C458185" (at 116.84 209.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d1ee2bdc-e04b-44ad-875e-b5a0dcedef3d))
+    (pin "2" (uuid b773f097-a133-4db0-8a4b-d9346a888697))
+    (pin "3" (uuid 2de88074-fad2-4c5c-b880-141c49ac560e))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5059,7 +5068,7 @@
     (property "Datasheet" "" (at 40.64 232.41 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid c53b66b0-e2c4-4ff2-8ca0-e41ba3671012))
+    (pin "1" (uuid 7888a559-b804-4dee-a01a-b89de2b4f5bd))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5084,8 +5093,8 @@
     (property "Datasheet" "~" (at 24.13 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3a59fc49-2719-40aa-9d2c-aa2582cf9b3d))
-    (pin "2" (uuid b4903b44-84b5-4f79-af2c-99bc381dadb3))
+    (pin "1" (uuid 87c3eca4-f28b-474d-afef-a55c13ed688b))
+    (pin "2" (uuid ccdc3e0b-f219-4045-af53-ae0df429d0a7))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5110,8 +5119,11 @@
     (property "Datasheet" "~" (at 387.35 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9a2ff1e6-662d-4599-95ea-990c620cc178))
-    (pin "2" (uuid eb4923a8-7a23-436e-9391-abb9f591b210))
+    (property "LCSC" "C57112" (at 387.35 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3d72c31d-ccdf-4a09-b519-609eaf947161))
+    (pin "2" (uuid 3ba39c30-b94d-4058-85c8-7e0a5a592b47))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5136,8 +5148,11 @@
     (property "Datasheet" "~" (at 311.15 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e79ae1b7-c894-4547-86a6-b788820a7f41))
-    (pin "2" (uuid 37b59c87-cc2b-4a18-bb15-d7d717ef2630))
+    (property "LCSC" "C14663" (at 311.15 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 27dec344-3bb4-4800-9bc8-7b7cb094ead1))
+    (pin "2" (uuid c4476180-28e9-41de-866d-6e9ca66d68ab))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5187,9 +5202,12 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" (at 132.08 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid d5b524ee-6af8-422e-ba80-4bdf12e84a3c))
-    (pin "2" (uuid 9011579a-1a8e-4ce1-bab5-6851d605863b))
-    (pin "3" (uuid 42594e49-a3b9-4749-9873-8621bcb4a718))
+    (property "LCSC" "C8545" (at 132.08 62.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a024a3da-10bb-4193-9d6f-feb07dc1f45e))
+    (pin "2" (uuid 9f369c27-945d-4fcf-ab73-51de3f8718ec))
+    (pin "3" (uuid ea469926-b54a-4b44-9019-49e6b36a6ae2))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5214,9 +5232,9 @@
     (property "Datasheet" "~" (at 389.89 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dfc3e91f-f25c-4110-addb-09fcb06a19d9))
-    (pin "2" (uuid 63b09550-199e-460d-b65f-96ae937915b2))
-    (pin "3" (uuid 9191d0d1-c252-4680-ac3e-964c22704055))
+    (pin "1" (uuid 9ce24a61-cc85-4f8f-9077-75dc5c8d8e2d))
+    (pin "2" (uuid 868fa0dd-03d0-4237-953e-f045739e81d8))
+    (pin "3" (uuid 77244211-1cd7-4785-91a4-99353be1466e))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5241,8 +5259,11 @@
     (property "Datasheet" "~" (at 160.02 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3e9b1540-d7d8-4bc1-9e92-873f90a3cd25))
-    (pin "2" (uuid ff02ab2b-a686-411f-945a-e4b588dcdaf7))
+    (property "LCSC" "C14663" (at 160.02 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9342d184-eae9-4170-93af-f796c8bcece1))
+    (pin "2" (uuid 18803c8c-f048-46cd-942f-8291dc49acd1))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5267,9 +5288,12 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" (at 260.35 217.17 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 404d5d5a-2339-4661-aec8-04446ce26cea))
-    (pin "2" (uuid 4bd1dce5-ac99-453e-a2d9-c9cf43242f2e))
-    (pin "3" (uuid bff318fe-f815-4c08-aac8-59574d4a78c9))
+    (property "LCSC" "C8545" (at 260.35 217.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b862254b-c7b3-49fa-99b8-a95d18ba1012))
+    (pin "2" (uuid bcc400e5-3cbd-49b3-adff-743ee6c548a6))
+    (pin "3" (uuid 53f20de1-7a09-44af-91fe-16f4d53560fe))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5294,8 +5318,11 @@
     (property "Datasheet" "~" (at 165.1 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ae240949-9064-4693-b104-98c6aa2a3ecb))
-    (pin "2" (uuid b124460b-dcf8-43a6-8d46-bca8463cd9fd))
+    (property "LCSC" "C22966" (at 165.1 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7ce1ffa1-1b51-4aeb-9f99-a8a06184a785))
+    (pin "2" (uuid 3d28fdbb-444b-4bcc-a118-48ab585c15e9))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5370,8 +5397,11 @@
     (property "Datasheet" "~" (at 88.9 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b72d9311-f446-4129-9889-7d1501d1fa6e))
-    (pin "2" (uuid 498786f1-8cec-4b1c-bad1-96466a475b91))
+    (property "LCSC" "C21190" (at 88.9 227.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dd228549-0c80-4f7e-9d19-72c6c7cd2750))
+    (pin "2" (uuid c5632369-5cd0-406a-a099-c6abdc774a59))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5396,8 +5426,11 @@
     (property "Datasheet" "~" (at 111.76 261.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 58a31408-4cdd-4e07-a611-9026ba6499c0))
-    (pin "2" (uuid a64682c0-a7df-48f6-b754-9781fbffe5a7))
+    (property "LCSC" "C57112" (at 111.76 261.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d3b7da05-c76a-401b-8eee-3ba3078b6d3a))
+    (pin "2" (uuid fcb0856c-be40-44cb-ad85-52429985cb2c))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5422,8 +5455,11 @@
     (property "Datasheet" "~" (at 223.52 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d7a49a33-6ec6-45fc-a7b0-93a2e6716d31))
-    (pin "2" (uuid 00f398e1-19b5-4003-8e53-1c9cb8724b62))
+    (property "LCSC" "C14663" (at 223.52 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid aec101fd-c5eb-4d4c-850a-c9d1470bba6d))
+    (pin "2" (uuid 25e5228a-a1f4-4234-85b3-6a9c4cc13c19))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5498,8 +5534,11 @@
     (property "Datasheet" "~" (at 287.02 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fee26ce2-112f-4fa9-9956-132d817561e6))
-    (pin "2" (uuid 3842212f-ec1c-496b-8600-e95da3862adb))
+    (property "LCSC" "C23162" (at 287.02 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4a473cae-1675-470b-86de-fe6255f05228))
+    (pin "2" (uuid 030597d2-b557-4718-b532-80fb6a0fc222))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5524,8 +5563,11 @@
     (property "Datasheet" "~" (at 245.11 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7548d968-c121-4ec5-8e89-77c3a62104da))
-    (pin "2" (uuid 57f53d37-fd59-4cfb-8fba-2dfdd5f44ea7))
+    (property "LCSC" "C21189" (at 245.11 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 56e70511-dcf8-4338-a2f4-60fe3934d917))
+    (pin "2" (uuid 1e97f0cc-d070-4a74-ad97-90c6a389d7ed))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5541,7 +5583,7 @@
     (property "Reference" "D003" (at 82.55 214.63 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "2.7V" (at 82.55 217.17 90)
+    (property "Value" "2.4V" (at 82.55 217.17 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 85.09 215.9 0)
@@ -5550,8 +5592,11 @@
     (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mmbz5221blt1-d.pdf" (at 85.09 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7f1b4883-b3f1-441c-b179-259d3df9d632))
-    (pin "3" (uuid bc27ad3a-7755-4de3-8cf6-22b39b57eb51))
+    (property "LCSC" "C411194" (at 85.09 215.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1edb2174-1250-4241-855a-a35a6a6f53d6))
+    (pin "3" (uuid 8dac6a7c-8012-4ed7-a9db-1362acbc9399))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5576,9 +5621,9 @@
     (property "Datasheet" "~" (at 386.588 32.258 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 768dc0a8-f3ca-4859-92f1-3b221d7ac253))
-    (pin "2" (uuid 07215ecb-a9d1-442e-8b84-a2db806c4d2a))
-    (pin "3" (uuid 32a6224d-dc07-4d02-a77b-db60584d43c1))
+    (pin "1" (uuid 04871306-05ed-41cf-8ed9-8f09f4f3e691))
+    (pin "2" (uuid 482675e5-4b67-4ed3-b81c-ce73d6309840))
+    (pin "3" (uuid 5fd252fb-f594-4de6-b653-aebe8a8f2ea5))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5603,8 +5648,11 @@
     (property "Datasheet" "~" (at 245.11 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b4c726f8-c4e5-44c1-8ccf-3ce42944861e))
-    (pin "2" (uuid 526935f5-8c78-4366-b2a4-76bca7fb02c2))
+    (property "LCSC" "C21189" (at 245.11 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 952cb2d6-a527-45d1-8ce9-455c1c9642ee))
+    (pin "2" (uuid 10f3ae8d-46e5-493a-a937-5f081ec911be))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5629,8 +5677,8 @@
     (property "Datasheet" "~" (at 374.65 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 05270d9a-224e-463b-b3c4-c5f1382607b5))
-    (pin "2" (uuid 9aa33e0f-bdb2-4ea5-b5ed-071db5776fda))
+    (pin "1" (uuid 254c788b-e13e-4a2a-8a61-507891ef902c))
+    (pin "2" (uuid ddfc7a49-a5d6-48d3-9204-54ee939ab6a4))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5655,8 +5703,11 @@
     (property "Datasheet" "~" (at 24.13 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 49361975-b497-4bd0-8ea7-3391a01e6638))
-    (pin "2" (uuid 8a13c89c-92eb-4b54-abc0-e7862a7b74ce))
+    (property "LCSC" "C4184" (at 24.13 266.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f4cbcf15-cb20-403c-b17f-be13d8b73f5f))
+    (pin "2" (uuid 06bdf10f-6999-4e63-a390-0d8846ea568c))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5681,8 +5732,11 @@
     (property "Datasheet" "~" (at 43.18 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e3cfadf7-4b62-4d1c-9741-c59959e236d4))
-    (pin "2" (uuid f979b540-6f2f-4d85-b5cf-d0f49d0a6ce5))
+    (property "LCSC" "C4184" (at 43.18 266.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a9c5d536-2f8d-44a9-a0ba-24fdcf2ba17f))
+    (pin "2" (uuid bdeb6eb3-4e44-4c67-bae9-abf3d53354d3))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5707,9 +5761,12 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" (at 132.08 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 3fcd5183-1d1c-41b3-8deb-7ee6b2dfd018))
-    (pin "2" (uuid 007533a4-37b2-4720-9421-1d41a9614fdd))
-    (pin "3" (uuid b5d9fb81-e615-4997-8cd9-917d25305e85))
+    (property "LCSC" "C8545" (at 132.08 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 24a3844f-7a83-4070-9aa7-b0f11c70cd0e))
+    (pin "2" (uuid a1c61c63-1c00-4701-9fab-147cb1f9388c))
+    (pin "3" (uuid 32a3d5a9-a433-4010-b1e6-f58b1ff59aa0))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5734,9 +5791,12 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" (at 193.04 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid bf7f419d-45a0-4552-9873-f472aa7c72b4))
-    (pin "2" (uuid 5cfcb2cf-68c3-4e75-bb62-0d88d1d3e88e))
-    (pin "3" (uuid e79622fb-024c-46b8-8fe0-a1926e77a410))
+    (property "LCSC" "C8545" (at 193.04 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 12c2bfad-bfb5-430d-93d5-81c10f17b5b7))
+    (pin "2" (uuid 6baa7058-4664-46e2-a806-1a92a625e17c))
+    (pin "3" (uuid 985c826b-0e87-4f45-92f5-bd4578be9b8a))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5747,7 +5807,7 @@
   )
 
   (symbol (lib_id "Memory_EEPROM:CAT24C256") (at 173.99 168.91 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 335386e0-3627-4694-94ce-040a1d897c82)
     (property "Reference" "U401" (at 167.64 161.9058 0)
       (effects (font (size 1.27 1.27)))
@@ -5761,14 +5821,17 @@
     (property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/CAT24C256-D.PDF" (at 173.99 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dbf78b92-8c66-4df3-8d71-902adba3cfb4))
-    (pin "2" (uuid a5254898-c9d3-4b3f-96c7-e6191d996737))
-    (pin "3" (uuid 706ed834-626d-4001-9c13-b635e9dc4275))
-    (pin "4" (uuid d7e89e7b-cf94-49d5-b968-23fda21e66a2))
-    (pin "5" (uuid 35e54f32-164d-4374-8241-901bc2e01190))
-    (pin "6" (uuid b204427b-2e06-428e-a770-b4fe03bf307f))
-    (pin "7" (uuid 8114944a-e7d0-4d3c-ac52-759d1773ca86))
-    (pin "8" (uuid 70175038-a99d-42d2-88f5-502d59987981))
+    (property "LCSC" "C79987" (at 173.99 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 57496503-4961-4618-95c3-ea26945c96b2))
+    (pin "2" (uuid dc1411dc-23d6-42ec-87f1-5842a7744bd4))
+    (pin "3" (uuid 6275d30b-61c9-4d01-b306-3c20b2c5566b))
+    (pin "4" (uuid 2d689b22-af30-4cf0-ae9d-fbb531d320a6))
+    (pin "5" (uuid ed34c618-ffad-4b21-99c9-3a962f56d499))
+    (pin "6" (uuid f64e06f2-ebfa-4893-a8fd-a8f1de5c8d95))
+    (pin "7" (uuid a039264f-0fe2-4392-af4b-8d9ed268768e))
+    (pin "8" (uuid d63e38a9-fea8-4ffa-a6fc-aacd5091e311))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5818,7 +5881,7 @@
     (property "Datasheet" "" (at 40.64 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2bdd08a8-d745-4091-94a3-4f2a39ea0ebb))
+    (pin "1" (uuid 7a760cfe-7a37-44b3-bf21-a0446b414dca))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5843,8 +5906,11 @@
     (property "Datasheet" "~" (at 186.69 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f7e2d50f-7ca4-4253-81ca-42f7458a9a8e))
-    (pin "2" (uuid 6abe1d93-ac8a-49f3-8adf-b7b074ac078c))
+    (property "LCSC" "C23018" (at 186.69 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 70e907e5-7873-4c7c-a0d7-4a76c2e36ae5))
+    (pin "2" (uuid 6c38ad22-3689-466e-bd8c-7a2539ec0654))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5869,7 +5935,7 @@
     (property "Datasheet" "" (at 106.68 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ae42b5fb-863d-499a-a7a7-6b3989d1d012))
+    (pin "1" (uuid d762d72c-3e7d-4a43-b0d8-f3f5c89f2273))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5894,8 +5960,11 @@
     (property "Datasheet" "~" (at 377.19 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fa0cfe95-d485-45ed-8344-2503c5dee5aa))
-    (pin "2" (uuid 80e9a5e6-9047-4e81-b133-d779629fbef9))
+    (property "LCSC" "C25804" (at 377.19 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f8f19564-fe60-4fa1-9396-ec5efad4d554))
+    (pin "2" (uuid 901edf88-cc14-4683-a856-7e8ef6d67b6e))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5945,8 +6014,11 @@
     (property "Datasheet" "~" (at 351.79 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 77e1f2bc-20c0-4848-9893-4fe93fb96b80))
-    (pin "2" (uuid d7fb8676-94f4-4adf-a86a-d26352fa67e6))
+    (property "LCSC" "C25804" (at 351.79 186.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ad6ec4ff-c6c8-42a0-8d23-271be6cb0b7b))
+    (pin "2" (uuid a1ba9338-f9b4-4493-9e43-52b7da0fb3ac))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -5962,7 +6034,7 @@
     (property "Reference" "D006" (at 110.49 226.06 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "LED" (at 110.49 228.6 90)
+    (property "Value" "BATT LED" (at 110.49 228.6 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 106.68 227.33 0)
@@ -5971,8 +6043,11 @@
     (property "Datasheet" "~" (at 106.68 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1d392af5-e73e-4288-a377-4036332e720f))
-    (pin "2" (uuid c846c334-d237-419a-8051-0669c1b5378b))
+    (property "LCSC" "C72038" (at 106.68 227.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fe54c723-53b1-4ff5-a5ad-2facd7f2ed9e))
+    (pin "2" (uuid a8f28ab4-34b1-4b18-a0c5-c83beef2ba97))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -6022,9 +6097,9 @@
     (property "Datasheet" "~" (at 389.89 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8c51f500-092c-49e6-b5c0-6af1c446480b))
-    (pin "2" (uuid 9bafc276-ef0f-4c7b-ae99-134a54f60ad9))
-    (pin "3" (uuid 3cb2b788-7d5a-4aff-b49b-a4f88d208399))
+    (pin "1" (uuid 6a9a6c6b-3fa8-46be-aca0-28237883eb3b))
+    (pin "2" (uuid f92dc7d7-aa03-4d30-8a35-bfba37422470))
+    (pin "3" (uuid 1ab154d8-f21f-4416-ad48-3ee118371476))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -6074,8 +6149,11 @@
     (property "Datasheet" "~" (at 208.28 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0d6789e7-5d72-4751-9396-781b79c15bad))
-    (pin "2" (uuid e2895a7e-a39d-48c6-856a-90b3fa805222))
+    (property "LCSC" "C21190" (at 208.28 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9d870a41-8b5d-4293-acf6-19d29b8a2c5c))
+    (pin "2" (uuid 2ef73b76-fb16-4f9b-9fb0-b4249af51838))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -6100,18 +6178,18 @@
     (property "Datasheet" "~" (at 279.4 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 254b28dc-ffe0-485f-8d70-98554a2ef9f9))
-    (pin "10" (uuid c0c06d20-2b62-4110-935b-f1a92868943b))
-    (pin "11" (uuid 0c553c2d-ae92-489d-a18a-485e0191f060))
-    (pin "12" (uuid d44153a4-73ef-404b-8d5e-83582c07464e))
-    (pin "2" (uuid edbd6719-cf7c-4098-b7c7-1621b4bd7c86))
-    (pin "3" (uuid 7d7747e3-4542-401e-8e64-ef2c6665f5e2))
-    (pin "4" (uuid f0bc64fa-1d6e-404f-a985-269f733375fa))
-    (pin "5" (uuid c6bf0654-2f4d-45e7-ac9d-d0530bcfc3ce))
-    (pin "6" (uuid 5578be36-f30a-42ce-ad75-b0516ff1b5b5))
-    (pin "7" (uuid 72a8fda6-a0fc-4d45-b657-06fc802cef52))
-    (pin "8" (uuid 33013ce8-99f5-4153-b31d-010309e1b069))
-    (pin "9" (uuid a4c82b6c-7602-4916-91ad-b500d6fff0bf))
+    (pin "1" (uuid 625718b4-301a-431c-adc6-91082023af9d))
+    (pin "10" (uuid 03dfdbe4-f78a-4860-8544-1a2312ed27c7))
+    (pin "11" (uuid 4f019009-8dd3-4a99-8f8c-97951a9fc97b))
+    (pin "12" (uuid c4c321fd-5d04-4e7e-a882-a577aef52f92))
+    (pin "2" (uuid 40fe39a7-835e-4a05-9f37-fdc89a78a2ce))
+    (pin "3" (uuid 37456f89-a80e-40e0-a170-548450001b47))
+    (pin "4" (uuid b3f0731d-8992-4190-9030-83dc9a859e8b))
+    (pin "5" (uuid 42a0e557-c5e6-4d69-8673-83d4f7c6407a))
+    (pin "6" (uuid 313aa7d8-a6f7-4527-b230-6d0e9df7a08e))
+    (pin "7" (uuid 19b5a031-24c1-456c-ada6-4920491c38bf))
+    (pin "8" (uuid bd8863c8-31fd-4d2b-a651-8e8303247558))
+    (pin "9" (uuid 3cc5d243-4d1f-4195-a1ff-90e5b1aa635f))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -6136,8 +6214,11 @@
     (property "Datasheet" "~" (at 245.11 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8028ab3d-7e6a-4dd2-ab59-065dd5acc72b))
-    (pin "2" (uuid b2854866-5fbb-4344-8807-6f3099e459bf))
+    (property "LCSC" "C21189" (at 245.11 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0a23a12c-0702-4a50-934e-49c6acd700a1))
+    (pin "2" (uuid 9bd1dec4-cf49-42c3-b054-61fe559feace))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -6262,8 +6343,11 @@
     (property "Datasheet" "~" (at 325.12 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5c668b47-7bfc-431b-9d0f-ff9e53344318))
-    (pin "2" (uuid 590315c7-eacd-49b0-ba9f-f90fa930d6f9))
+    (property "LCSC" "C25804" (at 325.12 186.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 95c7a861-7f9e-4f7c-a0d8-5887d38bb8cb))
+    (pin "2" (uuid 110067f9-b5a2-4c03-89f8-1f8ac9a399d3))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -6273,7 +6357,7 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 158.75 215.9 0) (mirror y) (unit 1)
+  (symbol (lib_id "Device:C") (at 158.75 215.9 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 57d6d110-52ac-465f-87ad-6a6b3a2c87cd)
     (property "Reference" "C005" (at 154.94 213.741 0)
@@ -6282,14 +6366,17 @@
     (property "Value" "10uF" (at 154.94 216.281 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (at 157.7848 219.71 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 157.7848 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4806/KS-A_Series_DS.pdf" (at 158.75 215.9 0)
+    (property "Datasheet" "~" (at 158.75 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6e6c9c1a-d34e-4924-b74b-823880de7405))
-    (pin "2" (uuid 45608ae8-1972-49c2-bdba-dbe1724d1e2f))
+    (property "LCSC" "C19702" (at 158.75 215.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3e506870-3744-4465-adaa-a0050ed00fd4))
+    (pin "2" (uuid 415958e1-fe8c-4f8e-8cac-949381ee8f6b))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -6387,8 +6474,11 @@
     (property "Datasheet" "~" (at 255.27 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aeda3b22-f5dc-4d64-89ca-0a0b12602202))
-    (pin "2" (uuid 8fa5cdf5-0caa-49e5-badd-ea214fea428a))
+    (property "LCSC" "C25804" (at 255.27 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dffe4a41-4ecc-4a53-93c0-fa0b9ecdc85d))
+    (pin "2" (uuid c85c7ca4-dce5-4268-8ea3-cb32cdd86db5))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -6413,8 +6503,11 @@
     (property "Datasheet" "~" (at 24.13 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 76209bef-4b86-47f5-9b61-acf020f6abe4))
-    (pin "2" (uuid cdc0f017-f612-48f9-b520-66526d4e3767))
+    (property "LCSC" "C14663" (at 24.13 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2e1ec3f4-3093-4efb-93dd-bb973fd1701b))
+    (pin "2" (uuid 5a2a763b-f20e-41fa-a982-3610c6c5d206))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -6439,8 +6532,11 @@
     (property "Datasheet" "~" (at 245.11 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 67e73a44-8657-447c-ae65-904bb9887dcf))
-    (pin "2" (uuid 88fff63c-bc28-471e-bc9e-f3b3852e2280))
+    (property "LCSC" "C21189" (at 245.11 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9fcf0e02-a831-43f7-b010-3198bd62ed16))
+    (pin "2" (uuid 8d69c4d9-70ed-4169-8599-fa525be25868))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -6509,14 +6605,17 @@
     (property "Value" "5.1V" (at 50.8 224.79 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD:D_SMA" (at 53.34 223.52 0)
+    (property "Footprint" "Diode_SMD:D_SMB" (at 53.34 223.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.mccsemi.com/pdf/Products/3SMAJ5918B-3SMAJ5956B(SMA).pdf" (at 53.34 223.52 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2201121830_LGE-3SMB5917B_C2940070.pdf" (at 53.34 223.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 886ce719-8399-4b04-9f05-f5e7920c2d05))
-    (pin "2" (uuid 662b6e47-7995-4565-9e80-6b58183d8b37))
+    (property "LCSC" "C2940070" (at 53.34 223.52 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0722b7fd-8921-49d2-83d9-545e33fe27c8))
+    (pin "2" (uuid 32d93fc3-8d30-448f-a0df-6e9ed00b2938))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -6566,8 +6665,11 @@
     (property "Datasheet" "~" (at 49.53 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 73bd2254-08d1-4f49-914f-876727ac54b0))
-    (pin "2" (uuid 98fcf309-d320-40d3-98d7-7cd52abf5b14))
+    (property "LCSC" "C57112" (at 49.53 266.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 265efb78-ab84-49a4-8e52-c88a6e69e59b))
+    (pin "2" (uuid 6513b642-f3ca-406c-87f3-77b60e978b15))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -6592,8 +6694,11 @@
     (property "Datasheet" "~" (at 127 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a877b752-3b5f-490b-a0f1-8eae20b68bf1))
-    (pin "2" (uuid df72cb35-f769-42cc-9cee-a64a6e52d11d))
+    (property "LCSC" "C25804" (at 127 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ce5871ee-450e-4811-88aa-53c162ed97d0))
+    (pin "2" (uuid 06af19d1-3ad2-4a99-915f-4c8901ba3fd2))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -6643,9 +6748,9 @@
     (property "Datasheet" "~" (at 186.69 264.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b61b6285-4999-4878-9a2b-a898091121ab))
-    (pin "2" (uuid 7a94cccf-5e78-429a-b214-9e8f6712d945))
-    (pin "3" (uuid 40aa64dd-13f9-424d-8ef5-42da9b9bcaa1))
+    (pin "1" (uuid f5441cca-6429-4c1b-a625-9905750699ea))
+    (pin "2" (uuid 4d6f4e20-132c-405e-a14f-5cf10699e513))
+    (pin "3" (uuid 1cc283a4-21ca-43dc-b7e5-9eae9e301080))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -6670,8 +6775,11 @@
     (property "Datasheet" "~" (at 194.31 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 959ef215-b96c-4207-b4db-2384cb689e93))
-    (pin "2" (uuid 78ecf466-0f2e-4d91-bcff-9e0241e82980))
+    (property "LCSC" "C23018" (at 194.31 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2f3f426d-744c-4293-9849-f708b4448d3e))
+    (pin "2" (uuid 5a0bd3b8-5663-44d4-9ec4-1537c91b8896))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -6721,8 +6829,11 @@
     (property "Datasheet" "~" (at 187.96 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0e0e80dc-fd89-459c-a6ca-ca0263a6caf9))
-    (pin "2" (uuid d5f4dc3f-eae0-4ab7-b82d-88bca6ef2427))
+    (property "LCSC" "C25804" (at 187.96 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 280e215e-57a5-4aaf-87e1-42edbab13e2d))
+    (pin "2" (uuid a983e7de-460f-4cf8-87e0-49f633c9bba8))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -6822,9 +6933,9 @@
     (property "Datasheet" "~" (at 390.652 104.394 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e629110c-fcd5-45a3-80e8-f158243b00cf))
-    (pin "2" (uuid 25ed0b32-5f33-47c2-b6ac-0273127cf594))
-    (pin "3" (uuid 88669a10-4f3d-4347-8246-ee6294589a2f))
+    (pin "1" (uuid f5df7d20-248c-4239-a95e-e580a77ee2ac))
+    (pin "2" (uuid 7b69aa0c-c589-40a8-8d23-4581f2a71c27))
+    (pin "3" (uuid 6cd7aa06-81f9-4dda-afe3-5b1aa9a95f12))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -6874,8 +6985,11 @@
     (property "Datasheet" "~" (at 24.13 259.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4365801b-356f-4a2b-a25c-966d51aa351e))
-    (pin "2" (uuid 818e2d4b-4ba3-41bf-b1f5-f3cd88467fee))
+    (property "LCSC" "C25804" (at 24.13 259.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5e4d35e2-f2c6-4099-995d-56598bc84f3a))
+    (pin "2" (uuid 6f2ff1ce-69f7-4b61-a100-04b9fddfa863))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7024,8 +7138,11 @@
     (property "Datasheet" "~" (at 363.22 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fc7c043a-a35c-4e63-abb3-64ffb4e5c607))
-    (pin "2" (uuid 550622d2-d155-4f3d-957d-e8fdf84184cb))
+    (property "LCSC" "C22787" (at 363.22 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2e3a8fb4-cf09-48c1-996d-0db091ab31ff))
+    (pin "2" (uuid 831d88a6-5920-4bf8-a852-2c8eb1fecf5e))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7041,7 +7158,7 @@
     (property "Reference" "R313" (at 373.38 213.36 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "500" (at 375.92 213.36 90)
+    (property "Value" "470" (at 375.92 213.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 374.142 213.36 90)
@@ -7050,8 +7167,11 @@
     (property "Datasheet" "~" (at 375.92 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 034f5ebb-f71b-4904-a5bf-1bf46110a36e))
-    (pin "2" (uuid 0fb522a8-e38c-4caf-9009-98afca24cf5b))
+    (property "LCSC" "C23179" (at 375.92 213.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1e9a8a4a-dd57-4780-b387-700625a2d0dd))
+    (pin "2" (uuid 7ed04095-c2c2-4d7c-98fd-c694e2674809))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7076,8 +7196,11 @@
     (property "Datasheet" "~" (at 346.71 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e0b8ebdb-1a0b-4988-a223-f5e0af491b49))
-    (pin "2" (uuid 81ec446d-a03e-42b4-92d2-07a05a8e062a))
+    (property "LCSC" "C21190" (at 346.71 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0f105a92-bf90-48ff-ac87-ec0e7d6bc214))
+    (pin "2" (uuid 8c39eeb9-0572-43a7-b331-4c65137c4095))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7102,9 +7225,12 @@
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG100V080ELPD.pdf" (at 29.21 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 80548d9e-6db4-4299-be64-8acb1ded2d9f))
-    (pin "2" (uuid dfdb8273-b9a3-434c-97c2-6f2c2ab16c8b))
-    (pin "3" (uuid 4db30c7b-edff-42d3-82ec-61e851f6917d))
+    (property "LCSC" "C458185" (at 29.21 217.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 772fa929-6ee3-48c7-a7fb-814ca38b5b2d))
+    (pin "2" (uuid b04f6de1-7c43-4c80-b688-e1c670e288d2))
+    (pin "3" (uuid 21551e06-074f-4dcb-a043-2bd51d07cada))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7204,8 +7330,11 @@
     (property "Datasheet" "~" (at 157.48 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d561d11b-5e43-4c78-a7ab-f0cdb367265c))
-    (pin "2" (uuid 364e1a20-ff7c-4266-a8ac-0d07697ba642))
+    (property "LCSC" "C25804" (at 157.48 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9cc210df-6224-4b66-b25e-14032743aaf2))
+    (pin "2" (uuid 9504f4c2-2d33-4777-9e32-05e8d830e61d))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7230,8 +7359,8 @@
     (property "Datasheet" "~" (at 375.92 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e3d0af22-979a-43b9-b138-0d676b72f6b1))
-    (pin "2" (uuid ae21b952-2121-4bf2-b588-cbe1467f0d0a))
+    (pin "1" (uuid 7c4b52a2-73d1-4105-a07c-0cb39fe43ac0))
+    (pin "2" (uuid 35fcc97d-6769-4cfb-bea2-f4d4d2e6a4c0))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7256,8 +7385,8 @@
     (property "Datasheet" "https://datasheets.kyocera-avx.com/AVX-SCC.pdf" (at 95.25 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9bfcaffa-5df1-425f-a9fb-acf66306df51))
-    (pin "2" (uuid 8df0f190-f768-41db-b74c-57c7e5972c08))
+    (pin "1" (uuid 8d1f7a18-88dc-4e49-8450-cf3f0b0bade6))
+    (pin "2" (uuid dc300fb1-25ac-4ab4-bf23-b1fa274f0f56))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7307,8 +7436,11 @@
     (property "Datasheet" "~" (at 311.15 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ceb2bbd7-1f30-480b-a213-499fc06d8a26))
-    (pin "2" (uuid ae760956-cc50-45a1-aa2b-ff59ed339fd4))
+    (property "LCSC" "C14663" (at 311.15 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e9e26907-dd6a-4062-b197-c8e0806bed22))
+    (pin "2" (uuid 1e033e3d-5bfd-4852-836b-1efd38c68e58))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7333,8 +7465,11 @@
     (property "Datasheet" "~" (at 43.18 259.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f190b7c2-b9bb-4080-acbd-b7b2d356c4ca))
-    (pin "2" (uuid 6ffd930e-c0e4-4f19-a55d-152f8a67e088))
+    (property "LCSC" "C25804" (at 43.18 259.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 07053a8e-4fa2-458b-9db7-4a4f58222084))
+    (pin "2" (uuid fb64133b-d38d-4bfd-8db8-04e29a2592d3))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7359,7 +7494,7 @@
     (property "Datasheet" "" (at 130.81 205.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 265dedc7-7859-44d3-a54c-7591f82fd20b))
+    (pin "1" (uuid d9a79acc-6d2a-47c1-8310-5b5787b44359))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7384,8 +7519,11 @@
     (property "Datasheet" "~" (at 134.62 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7766d208-ad7e-489a-b947-33146a692c13))
-    (pin "2" (uuid 5059eae3-cb4c-44dd-81e2-b040ed912654))
+    (property "LCSC" "C22966" (at 134.62 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 218c64ad-b969-41cc-a2fe-8adc1e5e7645))
+    (pin "2" (uuid c9258e1d-375d-46e6-a54e-73420acfbff9))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7410,8 +7548,11 @@
     (property "Datasheet" "~" (at 321.31 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4fed7714-4456-425f-a140-29677ebf8333))
-    (pin "2" (uuid 6d8f8858-ee83-4dca-aeac-253c44c9fe33))
+    (property "LCSC" "C25804" (at 321.31 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 92da87e8-a8ca-406b-ad40-887b328028df))
+    (pin "2" (uuid 41813f50-fc8d-44de-8889-1d0a4229ff22))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7486,8 +7627,11 @@
     (property "Datasheet" "~" (at 99.06 261.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 26128a80-b062-4d44-910a-22a24a18a2dd))
-    (pin "2" (uuid 13409a60-7c85-4b57-843d-d7eee7f45ad8))
+    (property "LCSC" "C14663" (at 99.06 261.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 17faa05f-9642-477b-b80a-f3f847d9b4b4))
+    (pin "2" (uuid 379d7523-0135-436d-af81-99053c39d839))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7503,7 +7647,7 @@
     (property "Reference" "C202" (at 229.87 123.19 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "16pF" (at 229.87 125.73 90)
+    (property "Value" "10pF" (at 229.87 125.73 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 226.06 130.5052 0)
@@ -7512,8 +7656,11 @@
     (property "Datasheet" "~" (at 229.87 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9c952f16-1ae8-4496-a6e9-01f7152580a9))
-    (pin "2" (uuid 13b6176d-eda8-4631-aed5-67a3bf2a2b28))
+    (property "LCSC" "C1634" (at 229.87 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0da71d9a-d8af-4894-8cb1-86f266835e4a))
+    (pin "2" (uuid 6710e54d-1be1-43a8-b7b2-0e1bbb47bb6b))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7532,14 +7679,17 @@
     (property "Value" "8MHz" (at 241.3 135.89 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Crystal:Crystal_C38-LF_D3.0mm_L8.0mm_Vertical" (at 237.49 134.62 0)
+    (property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm" (at 237.49 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://abracon.com/Resonators/ab308.pdf" (at 237.49 134.62 0)
+    (property "Datasheet" "https://www.mouser.ca/datasheet/2/3/abm3b-1774998.pdf" (at 237.49 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 70435579-fb7c-453e-8a9e-72a7c8702ccd))
-    (pin "2" (uuid 34f140ca-de29-4faf-9fb4-4899f788d8c4))
+    (property "LCSC" "C276420" (at 237.49 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bd9b8a46-b045-4f01-a8c6-5b56e060f222))
+    (pin "2" (uuid 2daaddc1-0baa-4be0-b3b7-dc19cfe5402f))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7555,35 +7705,38 @@
     (property "Reference" "U201" (at 272.7041 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MCP2515-xST" (at 272.7041 107.95 0)
+    (property "Value" "MCP2515-I/ST" (at 272.7041 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" (at 270.51 151.13 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "https://www.microchip.com/en-us/product/MCP2518FD#document-table" (at 273.05 148.59 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809191814_Microchip-Tech-MCP2515-I-ST_C15193.pdf" (at 273.05 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 73afd330-fce6-4145-95ea-65124b5fc416))
-    (pin "10" (uuid a45c4da9-5b48-4704-8afa-3e996977ca0f))
-    (pin "11" (uuid ea94fdd6-abc1-4c7c-a2c2-4ac1170399b1))
-    (pin "12" (uuid 4919e9b0-aea6-49bd-9d35-056863efc472))
-    (pin "13" (uuid d5b3f323-67dd-4b34-bdb9-f240b9f29754))
-    (pin "14" (uuid 8773fbec-64b8-4de0-9d7d-d196291222b3))
-    (pin "15" (uuid 4ee60510-f83e-4c1e-af1d-28af2cfcbac2))
-    (pin "16" (uuid 0afde497-386e-4c47-b0a4-6a7b836afbcf))
-    (pin "17" (uuid 0da906c8-6521-4d02-9cdc-bb2eec1dc5f1))
-    (pin "18" (uuid a29d7f3e-b102-422d-99ac-67b57c66d473))
-    (pin "19" (uuid 4cff902d-5107-4780-bb6e-5c43b14a1d58))
-    (pin "2" (uuid b59a66bd-6346-4842-a0c9-8b6dea93f0dc))
-    (pin "20" (uuid 514c14ae-3018-468f-a9bf-f62024cc2a24))
-    (pin "3" (uuid 48e75aa1-0043-48f0-8550-3ada3e2f3695))
-    (pin "4" (uuid ec0663e4-b884-487c-9fa2-aedd91d91d90))
-    (pin "5" (uuid 8b79b36a-7c76-43ac-863f-a66ed36634ac))
-    (pin "6" (uuid e0731fbf-2803-44c1-b4ee-031b4090fe5f))
-    (pin "7" (uuid 9b017848-dbe8-4007-af28-401a207b6c15))
-    (pin "8" (uuid 447c7207-a869-40ba-a192-6fb890b72e34))
-    (pin "9" (uuid 6bad173f-49be-4716-9170-377bd227eab7))
+    (property "LCSC" "C15193" (at 270.51 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1525188d-6f88-47e1-928a-55b7ef72d704))
+    (pin "10" (uuid 57f70d07-ec68-44ed-8eca-cfd15929e817))
+    (pin "11" (uuid cc6b0fc7-7afa-4ef5-b82e-9dd3ad6a8ac8))
+    (pin "12" (uuid 6b215c6d-5781-4414-a8fb-6a89fea4fd3a))
+    (pin "13" (uuid 37f4b792-4932-4962-93bd-2489bbe6e272))
+    (pin "14" (uuid becb6959-22ab-45db-b7bd-866478a3c2c2))
+    (pin "15" (uuid f7af364d-1f20-44b5-8ea8-1e12e3ae9f15))
+    (pin "16" (uuid 13fce085-e269-4c53-9521-e8752ec5f441))
+    (pin "17" (uuid df973bd7-2b4a-461f-9b96-70e4ba5b2167))
+    (pin "18" (uuid c2960594-c348-4a74-9bc3-71f6f63e506f))
+    (pin "19" (uuid cd5ae34e-67f4-4b11-9bdc-621d126e1a2d))
+    (pin "2" (uuid d24e722a-4a33-47a2-9678-84c23f123eb5))
+    (pin "20" (uuid 2913cf4a-3848-423f-8727-fb7a9afaffcd))
+    (pin "3" (uuid 4fd6793b-9713-41fc-9b5c-840bc7b8d4cb))
+    (pin "4" (uuid 5326d4d9-0151-4419-82e4-b5f51bfa95fd))
+    (pin "5" (uuid 8f1437eb-72ca-428b-815b-2db4836c96e1))
+    (pin "6" (uuid 565504c3-9cf4-48cb-95cd-4418cefd24a5))
+    (pin "7" (uuid acb6adc9-df67-44f9-8bef-ad4bab083eab))
+    (pin "8" (uuid d6d7ee36-9463-486c-a3c1-06cd9d07bfb0))
+    (pin "9" (uuid 64cb5c07-fede-43d2-86ba-aaecd4dc4698))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7608,8 +7761,11 @@
     (property "Datasheet" "~" (at 240.03 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4644731d-871f-421f-be61-d9b41a9d7404))
-    (pin "2" (uuid 365beb8e-d54f-4238-b8da-2fc0f0f5da72))
+    (property "LCSC" "C22966" (at 240.03 208.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5cb09155-73c8-46f9-80eb-24752eccea8f))
+    (pin "2" (uuid 66dace7a-d0b7-4839-8597-fba7a900f70a))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7709,9 +7865,12 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" (at 162.56 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 47c372ba-b800-469d-b6b6-27e3b918f59c))
-    (pin "2" (uuid 1536a25b-7c10-484a-a2c9-e20f1a010aa4))
-    (pin "3" (uuid c6685862-419d-4c66-86b5-e5b19a98d885))
+    (property "LCSC" "C8545" (at 162.56 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1a26015f-a6c4-47dd-ab1f-65e9f47ac209))
+    (pin "2" (uuid 12e9eedc-3cce-431a-8bf0-31f3582dd795))
+    (pin "3" (uuid db3b7b98-6510-443a-a42e-8d98022182b7))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7786,8 +7945,11 @@
     (property "Datasheet" "~" (at 165.1 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 64ed18c6-259d-4e15-a5db-9710e67ebd61))
-    (pin "2" (uuid a26f629d-f1e4-446c-bc91-3a402fb7d745))
+    (property "LCSC" "C22966" (at 165.1 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 91642193-435b-4e24-a2d5-9291b5162d1e))
+    (pin "2" (uuid db23e576-6884-457a-ae25-c4469b98afd2))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7812,8 +7974,11 @@
     (property "Datasheet" "~" (at 381 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ac4f0264-3b1b-41ac-b627-df8dc920877d))
-    (pin "2" (uuid 5f86c326-7f7f-4f4b-9477-ec1844adf844))
+    (property "LCSC" "C25804" (at 381 186.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cb8bb6a4-065a-49b8-8788-bb8c882db68d))
+    (pin "2" (uuid 7238c703-07d8-4cab-976d-1f3dd9658378))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7829,7 +7994,7 @@
     (property "Reference" "R310" (at 344.17 213.36 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "500" (at 346.71 213.36 90)
+    (property "Value" "470" (at 346.71 213.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 344.932 213.36 90)
@@ -7838,8 +8003,11 @@
     (property "Datasheet" "~" (at 346.71 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 59c79d15-d270-4b9d-a500-b1532ee83eb5))
-    (pin "2" (uuid c57863e8-aba2-4ab9-8c5c-8dd85e1293fd))
+    (property "LCSC" "C23179" (at 346.71 213.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 82cb6e11-6a61-4a18-b0ae-60abc523f9c5))
+    (pin "2" (uuid 96493c05-9223-4a13-a41a-2e9bfc3e7ab5))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7864,8 +8032,11 @@
     (property "Datasheet" "~" (at 363.22 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 46982231-2b66-48ab-bc70-3af2d639faf9))
-    (pin "2" (uuid 71f0687d-1de5-43c5-b1b6-debc3b190111))
+    (property "LCSC" "C22787" (at 363.22 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5944487e-197e-40db-a25f-64486d4146ed))
+    (pin "2" (uuid 921dc0f7-9866-4183-9432-73eadd8f5010))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7890,8 +8061,11 @@
     (property "Datasheet" "~" (at 317.5 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid beb57f5a-b4c6-491e-ad19-66454d05362d))
-    (pin "2" (uuid 8059533f-c467-416e-b121-86d7cfaf2362))
+    (property "LCSC" "C14663" (at 317.5 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid eb556c1a-2f4e-4eb7-a9e0-dc79882e3e73))
+    (pin "2" (uuid 676952b5-1427-4090-a07b-130fc9aa13a7))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7907,7 +8081,7 @@
     (property "Reference" "C103" (at 229.87 57.15 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "16pF" (at 229.87 59.69 90)
+    (property "Value" "10pF" (at 229.87 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 233.68 64.4652 0)
@@ -7916,8 +8090,11 @@
     (property "Datasheet" "~" (at 229.87 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2a14437e-0111-4aec-bac3-21dd69c87ff9))
-    (pin "2" (uuid 479bd045-b31f-487b-8e5e-689e8cafd554))
+    (property "LCSC" "C1634" (at 229.87 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 831c8f29-694a-41c6-94b2-1be008c7f16d))
+    (pin "2" (uuid 4b474a02-2a0f-481e-8059-a58767419aeb))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7942,7 +8119,7 @@
     (property "Datasheet" "" (at 97.79 237.49 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid f340657e-6c27-45df-a1cc-ef423e8699a6))
+    (pin "1" (uuid 31a0c638-c999-4b0f-9b96-3b08077d03c7))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -7992,8 +8169,11 @@
     (property "Datasheet" "~" (at 195.58 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d00070b9-b6b3-4e53-994f-032e394f718f))
-    (pin "2" (uuid 0b9c9dc2-95b4-4328-a218-556c31c8a79c))
+    (property "LCSC" "C22966" (at 195.58 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 795920fe-19bc-49ba-b73a-d70f974f97be))
+    (pin "2" (uuid c67cf9db-cb60-4323-ad77-f6e9f09c62fe))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8012,14 +8192,17 @@
     (property "Value" "8MHz" (at 241.3 59.69 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Crystal:Crystal_C38-LF_D3.0mm_L8.0mm_Vertical" (at 237.49 58.42 0)
+    (property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm" (at 237.49 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://abracon.com/Resonators/ab308.pdf" (at 237.49 58.42 0)
+    (property "Datasheet" "https://www.mouser.ca/datasheet/2/3/abm3b-1774998.pdf" (at 237.49 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0773cc30-6f69-4919-af16-621db642c5b5))
-    (pin "2" (uuid c39bd61f-8c31-4fbb-8439-616a0df2233b))
+    (property "LCSC" "C276420" (at 237.49 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d52cb65b-250d-415d-b9e2-65ca5c54dc48))
+    (pin "2" (uuid 24563881-6ee2-4fcb-8671-a16c22f7686c))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8069,8 +8252,11 @@
     (property "Datasheet" "~" (at 347.98 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 05c91d24-9b8b-4fb0-9ec4-62304b205b0f))
-    (pin "2" (uuid ea55d7f7-17e1-4f99-9829-8ce9a670a082))
+    (property "LCSC" "C25804" (at 347.98 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d61ec703-6c96-4846-aa1b-706efbe2518d))
+    (pin "2" (uuid 55bfd6aa-66d0-4c4c-9ed4-020aa7c6e759))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8120,16 +8306,19 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1015.pdf" (at 82.55 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a8d0836a-b472-4c30-9fcd-855dbea2d456))
-    (pin "10" (uuid 6efdda48-58b2-4531-b62d-89dec96a60c1))
-    (pin "2" (uuid 002c1cf9-9592-469c-829a-3a3ec0076419))
-    (pin "3" (uuid c4b0ba7e-cfa9-4d5f-8f5b-549e6387cff3))
-    (pin "4" (uuid 0a05788c-2953-45ea-96ed-1bfeffe73bc7))
-    (pin "5" (uuid 0820a838-d3e7-44e4-95ff-504cecd8f72f))
-    (pin "6" (uuid c558e79f-e864-421d-ae4a-106d2289c9f0))
-    (pin "7" (uuid 0b683a43-e8a9-43d4-91f2-9a762d35f229))
-    (pin "8" (uuid c527ee2d-75df-4bc2-99b1-7b0e00a1a160))
-    (pin "9" (uuid f59b7b13-d29b-483d-89c5-6e5af26b7506))
+    (property "LCSC" "C193969" (at 83.82 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 267368d5-4d18-42d7-b551-cb152f26e3d8))
+    (pin "10" (uuid 8c36c925-c884-4d30-9f7b-4b251be26448))
+    (pin "2" (uuid 7b863aa4-d946-4c25-ab75-f2f16f90e836))
+    (pin "3" (uuid 3004aab8-3928-4b54-a02f-0e1604cdf4c5))
+    (pin "4" (uuid 49a6ad09-e1db-4c80-84d1-6e851201ad13))
+    (pin "5" (uuid 365026f4-1a08-441a-b63e-c0526b517f18))
+    (pin "6" (uuid 783d7e90-4860-4188-8487-93dad0beb59a))
+    (pin "7" (uuid 404c3057-bba7-4fad-a0e0-d7109c6406e3))
+    (pin "8" (uuid 4e415ac2-1d60-4152-9a55-bcc074789b84))
+    (pin "9" (uuid e23f4ec5-9e96-42ca-aea7-a447f7e5b270))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8154,9 +8343,12 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" (at 162.56 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 69cccd0c-2c14-4d22-9c0c-a4b3b52a6ee4))
-    (pin "2" (uuid 5e27be51-4ed4-4805-a91d-083cfe24c8c1))
-    (pin "3" (uuid 7642d55f-4f11-47d0-b3b5-d735c492791d))
+    (property "LCSC" "C8545" (at 162.56 62.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 29038a96-2861-4cc9-877f-5b1506b28d8c))
+    (pin "2" (uuid 58a0c99b-cb44-451c-89f6-d6cb96a1a4fd))
+    (pin "3" (uuid 148dbeb2-32ea-447a-a860-19b2005af126))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8231,8 +8423,11 @@
     (property "Datasheet" "~" (at 88.9 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f8fc76a3-d3d4-459d-8823-ce66601fcf33))
-    (pin "2" (uuid d602ffe8-4f52-4022-ab6a-80d17c667b87))
+    (property "LCSC" "C21190" (at 88.9 215.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e6eeae7b-2234-4bdb-9698-0006452668b6))
+    (pin "2" (uuid f13f8cb6-932f-44a4-bf59-996a63a6d651))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8248,35 +8443,38 @@
     (property "Reference" "U101" (at 272.7041 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MCP2515-xST" (at 272.7041 31.75 0)
+    (property "Value" "MCP2515-I/ST" (at 272.7041 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" (at 270.51 74.93 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "https://www.microchip.com/en-us/product/MCP2518FD#document-table" (at 273.05 72.39 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809191814_Microchip-Tech-MCP2515-I-ST_C15193.pdf" (at 273.05 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7e6eed9d-1942-4f1c-bbfb-6fb2011feec8))
-    (pin "10" (uuid 64fae5c6-36cc-4984-9a75-aba9b9ce3bfa))
-    (pin "11" (uuid 528c1167-969b-4909-8a47-ed6d3cf40962))
-    (pin "12" (uuid 4dae2d60-e882-4944-aa5f-aad7e7c16154))
-    (pin "13" (uuid bad62872-9c94-46de-bd8d-87e4def817ee))
-    (pin "14" (uuid e37bad3a-d1a0-4204-ba85-6c8a779cf8fd))
-    (pin "15" (uuid 855aa032-874f-4187-a8aa-ffaf87e296ac))
-    (pin "16" (uuid bc5443e7-32ef-47d2-b905-e6c876d03d01))
-    (pin "17" (uuid 910c4bee-0dfb-4a1e-aa73-36739f82f843))
-    (pin "18" (uuid bc9a4c4b-0722-4894-a9b8-302e17e495bc))
-    (pin "19" (uuid 0c7ae6d5-c91d-4670-b978-59acda07ab40))
-    (pin "2" (uuid cb0c57cb-32c2-4e26-a07b-295441ea9b4a))
-    (pin "20" (uuid 62bba4ac-9428-46c1-9518-cb769dce8f45))
-    (pin "3" (uuid 8c2bb849-c839-4484-a7ac-75c9ef0e3c13))
-    (pin "4" (uuid 1c8538e2-e2da-4faf-9b6f-89d751ad31fa))
-    (pin "5" (uuid a34fd06e-f806-4ac0-a0a7-4ef915d4a4e4))
-    (pin "6" (uuid c041cef1-1120-451a-9f34-8aa1658c0229))
-    (pin "7" (uuid c7d954e8-5fd5-491b-b32f-e5ab39613d6a))
-    (pin "8" (uuid 595e8b1f-a8a5-4292-8713-7fc1fe699601))
-    (pin "9" (uuid 8aa0625b-c5cf-4766-b8d6-fa1f1b89aad2))
+    (property "LCSC" "C15193" (at 270.51 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0ab0e9a5-35e0-4b5f-ba49-f9efe5b642ca))
+    (pin "10" (uuid 17183fec-e274-4a84-bdfc-27dbce1a0bd1))
+    (pin "11" (uuid 63103d04-de06-4488-8993-03d785de8d7b))
+    (pin "12" (uuid b1502885-46cb-42a1-a60f-22011dbff431))
+    (pin "13" (uuid b74e985e-be80-44d0-948d-586919a43f64))
+    (pin "14" (uuid 017b5d00-3f40-4f39-aba4-771bf2779785))
+    (pin "15" (uuid 715031e0-be17-4b83-ad9e-66cc257c2af2))
+    (pin "16" (uuid e8c85214-20b5-4302-9161-8a2675486520))
+    (pin "17" (uuid f3f16a4a-0333-4c0a-a2c3-ffdca8a9c04d))
+    (pin "18" (uuid 3d5e49a5-5722-4ff7-9191-5227fe157cfe))
+    (pin "19" (uuid 868d2180-cb4e-4559-9100-37d9421a4300))
+    (pin "2" (uuid 8a6afbc2-d873-4fa0-b3c4-d14424901a35))
+    (pin "20" (uuid 1af0db6c-9f51-4230-8a14-2f25e6e0650e))
+    (pin "3" (uuid 0265917d-1e03-4684-994c-2f1100f377a3))
+    (pin "4" (uuid ea958b7b-4aa6-4468-bb81-44645968b3fd))
+    (pin "5" (uuid d2d59235-f08b-44d2-97de-69beb27afc7b))
+    (pin "6" (uuid db548ce9-3c93-4126-9226-c2b0bb4ef4c9))
+    (pin "7" (uuid 49cfcff1-e5a0-4db4-b6c4-e42d7e67eb9a))
+    (pin "8" (uuid ddbf7ab7-ba73-4f60-afc8-841adeee37f1))
+    (pin "9" (uuid e86990bf-0a2e-4541-bc37-ae1144341903))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8292,7 +8490,7 @@
     (property "Reference" "D004" (at 82.55 226.06 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "2.7V" (at 82.55 228.6 90)
+    (property "Value" "2.4V" (at 82.55 228.6 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 85.09 227.33 0)
@@ -8301,8 +8499,11 @@
     (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mmbz5221blt1-d.pdf" (at 85.09 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 800372e3-5132-4654-833c-ae6de0211423))
-    (pin "3" (uuid 4453b978-a2a2-4a60-a5a5-f9bc00c2da52))
+    (property "LCSC" "C411194" (at 85.09 227.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 95a299ab-2698-4856-a7f3-3779c53cb493))
+    (pin "3" (uuid db5a57b9-7d69-468e-952e-363294827dc0))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8327,7 +8528,7 @@
     (property "Datasheet" "" (at 72.39 205.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4c6c9517-c372-4b2f-937e-651c94a21a6e))
+    (pin "1" (uuid 592e2ce6-f926-44a7-b8f2-cc96cc728deb))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8377,8 +8578,11 @@
     (property "Datasheet" "~" (at 375.92 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 28ff3944-fc08-4c41-9457-4a76c8c4d7fd))
-    (pin "2" (uuid e52fdef6-1130-4bad-bc6d-0999bf2c1767))
+    (property "LCSC" "C21190" (at 375.92 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7a4894c5-81bb-4351-886f-ee825404b66d))
+    (pin "2" (uuid 82354a92-43ba-430c-b0bc-aa25ba7cc10e))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8428,8 +8632,11 @@
     (property "Datasheet" "~" (at 347.98 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c3852434-056d-4566-ad31-7051d0babcc2))
-    (pin "2" (uuid 7d16fb60-a5d2-40c4-9e8b-92f3e4508526))
+    (property "LCSC" "C4184" (at 347.98 190.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 19b638e2-37cc-4af4-9422-48626981d80a))
+    (pin "2" (uuid 47f4b1ab-77c7-44ea-a7e5-540bcb60b715))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8454,8 +8661,11 @@
     (property "Datasheet" "~" (at 39.37 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4c97bf0b-bb03-423d-b76b-583dae9ac426))
-    (pin "2" (uuid 0111fc40-5ecb-4fcb-b8fb-c0661e3bbeea))
+    (property "LCSC" "C57112" (at 39.37 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e62082f8-1393-4626-96d4-fbca701e5d88))
+    (pin "2" (uuid 4a3a3791-5800-461d-ace1-84eab41e3b25))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8480,8 +8690,11 @@
     (property "Datasheet" "~" (at 157.48 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b80b8696-865f-4155-87de-c60e3999b642))
-    (pin "2" (uuid 8f953c86-a053-46c5-968e-0c5566a900a2))
+    (property "LCSC" "C25804" (at 157.48 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 78c36f56-a012-49f9-8018-4aa67b3690cd))
+    (pin "2" (uuid 58444b4d-793d-4e73-a30e-43dadf9337ff))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8506,14 +8719,17 @@
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf" (at 342.9 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1333737e-5e08-44c8-823e-e54772df8290))
-    (pin "2" (uuid b2cf3dcb-5dc4-49f9-929d-d8e9eb09936a))
-    (pin "3" (uuid cee17bc9-41a7-4efe-9501-c0d842c10340))
-    (pin "4" (uuid 7cbe3fd7-ebfd-49a5-9bbe-382494cf99e4))
-    (pin "5" (uuid 834f7084-11bb-4d51-865b-0a80970b9c71))
-    (pin "6" (uuid de076825-771c-45e7-892f-d56668caac4a))
-    (pin "7" (uuid 483d5c00-c053-4203-890f-dcfcfb660420))
-    (pin "8" (uuid 62a6407d-d31d-465e-bb13-2d2abb22b17a))
+    (property "LCSC" "C191417" (at 342.9 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c393263c-401f-41fc-a835-18c3ff7538ea))
+    (pin "2" (uuid b0c89417-c232-4800-a924-fadd416db7ef))
+    (pin "3" (uuid ab6eb7c4-28d4-4466-a5e0-572daf76953e))
+    (pin "4" (uuid 2a574d6b-77b2-4492-a5dd-29f5030fd184))
+    (pin "5" (uuid 3541176a-0efe-4cd6-b4bb-7156a9b3e807))
+    (pin "6" (uuid 1ea9923e-efc2-4f7c-813f-6d1aa7a28c89))
+    (pin "7" (uuid 005d998c-570a-481f-a342-a65d76c55770))
+    (pin "8" (uuid 90aa5208-408b-4095-afc6-cb63d1744f90))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8538,8 +8754,11 @@
     (property "Datasheet" "~" (at 127 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 36bbd37a-8246-4909-bb8b-db54d84f3638))
-    (pin "2" (uuid af1e5911-d343-4109-b0b6-bc37bd08dea1))
+    (property "LCSC" "C25804" (at 127 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4fe70d3d-d614-4fca-a274-08ba32f0d062))
+    (pin "2" (uuid 66ac3e4d-7d94-4f96-879a-4be32c363f57))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8589,8 +8808,11 @@
     (property "Datasheet" "~" (at 283.21 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aefae5c2-6b3e-43b6-b1a5-be856c5e4ce0))
-    (pin "2" (uuid b16b581c-bdc2-4553-8c9b-fd6ca0a94bc3))
+    (property "LCSC" "C25804" (at 283.21 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3d712238-ebf6-4d5c-9ffc-813af2728939))
+    (pin "2" (uuid 8cd51801-51b0-438f-9a1b-3b46377a19cc))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8615,8 +8837,11 @@
     (property "Datasheet" "~" (at 350.52 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2db3fdfb-b019-4691-9c31-580e90bc5416))
-    (pin "2" (uuid ca98c89d-2cd5-4a33-8de0-d39de54a3516))
+    (property "LCSC" "C25804" (at 350.52 217.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0c441558-6683-4833-abcc-0d1db07348a2))
+    (pin "2" (uuid 53bbd6bb-6e30-4349-85ae-9140ff2dcdca))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8641,8 +8866,11 @@
     (property "Datasheet" "~" (at 134.62 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 131bf509-3478-4d8f-8a51-4c86c2ac0e1a))
-    (pin "2" (uuid c23a8729-9959-4edf-919f-4d44d9c72201))
+    (property "LCSC" "C22966" (at 134.62 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 34c599a5-19ea-4a11-8191-bb00ee90eb2c))
+    (pin "2" (uuid 298696cf-448c-403f-b2f9-86ee738520fa))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8717,8 +8945,11 @@
     (property "Datasheet" "~" (at 106.68 218.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d5c489e3-a2c1-48cf-8f8a-98b0d4b8fe49))
-    (pin "2" (uuid e7b3ad55-727c-46c9-ae0e-07ca084d7044))
+    (property "LCSC" "C21190" (at 106.68 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 41e058de-3494-43e3-982d-90815717d221))
+    (pin "2" (uuid 445c56af-5321-4625-8fac-871fd629077c))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8792,14 +9023,17 @@
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf" (at 342.9 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9022e09e-cf2f-431f-a54e-59f003b58f6f))
-    (pin "2" (uuid 2ac8a791-37d3-41c9-b46e-b9dabf80e3ff))
-    (pin "3" (uuid 1c3eda39-9f17-4de4-9ab1-3d86dcf34cc1))
-    (pin "4" (uuid eacd63fb-2585-480e-a96b-ded8e7c8a76f))
-    (pin "5" (uuid 80ba1583-7168-45de-8807-c04261632b94))
-    (pin "6" (uuid f1ecc62c-e361-4427-a86d-6a026afa0d7e))
-    (pin "7" (uuid 31c8a8d3-8846-4fd1-bc76-307f4ad946e2))
-    (pin "8" (uuid ee34fb2c-ed0f-4060-8b10-008664062216))
+    (property "LCSC" "C191417" (at 342.9 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9460a98d-bdf4-4b64-941b-fdaf3565e712))
+    (pin "2" (uuid 2f40d953-9378-4657-856c-9a7b68e7320a))
+    (pin "3" (uuid 8b5ad1c9-c475-4ebe-bf4d-38b7dd44512b))
+    (pin "4" (uuid 283e6b14-4e14-4b75-bc37-e72443a68981))
+    (pin "5" (uuid efb0172d-dfca-4649-af49-1c270999632c))
+    (pin "6" (uuid 7183d463-f1ae-4b79-a3dc-1a5c3ab8d064))
+    (pin "7" (uuid 296fc420-ae1b-49d2-bede-d49d4bb1e00f))
+    (pin "8" (uuid 56c1e5c2-8b1e-48bb-b23e-a54d9fd3d633))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8815,7 +9049,7 @@
     (property "Reference" "C203" (at 229.87 133.35 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "16pF" (at 229.87 135.89 90)
+    (property "Value" "10pF" (at 229.87 135.89 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 233.68 140.6652 0)
@@ -8824,8 +9058,11 @@
     (property "Datasheet" "~" (at 229.87 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 176f9f1b-a2f0-42f9-931f-31c48848ed44))
-    (pin "2" (uuid c4557f09-b3a6-4d8c-aee9-8d151329409e))
+    (property "LCSC" "C1634" (at 229.87 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6d40b4b9-bb7c-4cba-b8ae-483a8c03cd79))
+    (pin "2" (uuid 2f6ad4bf-5492-4fca-8f34-ab1234824c88))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8835,7 +9072,7 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 186.69 223.52 0) (mirror y) (unit 1)
+  (symbol (lib_id "Device:C") (at 186.69 223.52 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cebbba24-1b7f-46e2-bc43-a6be51c9b088)
     (property "Reference" "C006" (at 182.88 222.25 0)
@@ -8844,14 +9081,17 @@
     (property "Value" "100uF" (at 182.88 224.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (at 185.7248 227.33 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 185.7248 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4806/KS-A_Series_DS.pdf" (at 186.69 223.52 0)
+    (property "Datasheet" "~" (at 186.69 223.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3abb2dae-500f-40c3-bce3-2bd76fa72bea))
-    (pin "2" (uuid 1b94fd06-4d4b-43f3-b9cb-4f6e69bb5ee2))
+    (property "LCSC" "C15008" (at 186.69 223.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 60239915-7246-4af7-96bb-a432d10825ba))
+    (pin "2" (uuid 028708ee-8b50-4620-bb4c-df3c44b52254))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8876,8 +9116,11 @@
     (property "Datasheet" "~" (at 187.96 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid af1a1cbe-b9e7-4982-b589-a4d295db5d9f))
-    (pin "2" (uuid 7d5301e3-60b4-45a0-ac60-5ea754abe599))
+    (property "LCSC" "C25804" (at 187.96 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ba73faa5-9420-4688-9b32-f5d63b694d3c))
+    (pin "2" (uuid 7fc1d345-ff7e-420e-8cf7-ef761073efbe))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8927,8 +9170,11 @@
     (property "Datasheet" "~" (at 317.5 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 285783fd-d69b-4a6a-82b6-b3255056c7ea))
-    (pin "2" (uuid 6a3981f4-e8b3-4820-8bfd-9d2e9988600f))
+    (property "LCSC" "C14663" (at 317.5 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0ac7339a-4a14-450f-a061-b66d5d4f2503))
+    (pin "2" (uuid 5f90510f-8c87-4756-b905-e07d490ce0b6))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8944,7 +9190,7 @@
     (property "Reference" "C102" (at 229.87 46.99 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "16pF" (at 229.87 49.53 90)
+    (property "Value" "10pF" (at 229.87 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 226.06 54.3052 0)
@@ -8953,8 +9199,11 @@
     (property "Datasheet" "~" (at 229.87 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3ecc355e-955c-4e27-97f7-9bba62ba4837))
-    (pin "2" (uuid 3db9d991-6a35-4bba-9403-8f2797357455))
+    (property "LCSC" "C1634" (at 229.87 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0cce5f02-ce77-4952-9a01-beb3b156c314))
+    (pin "2" (uuid 06fda01a-fadc-408a-b88b-19b00c5766a0))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -8970,17 +9219,20 @@
     (property "Reference" "R001" (at 81.28 207.01 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "3.3" (at 81.28 209.55 90)
+    (property "Value" "47" (at 81.28 209.55 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 81.28 207.772 90)
+    (property "Footprint" "Resistor_SMD:R_2512_6332Metric" (at 81.28 207.772 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 81.28 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 71bc7824-b6ec-440c-a7ea-adc60aec9f65))
-    (pin "2" (uuid a6353ed8-c692-4f52-8cc0-2196dc976752))
+    (property "LCSC" "C2913007" (at 81.28 209.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5fc28001-cab2-48d0-8b8d-3eef0189c9d9))
+    (pin "2" (uuid 3c2d231d-e29b-4875-9727-5490c8873a2a))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -9005,8 +9257,11 @@
     (property "Datasheet" "~" (at 285.75 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 69887c91-467f-4a40-a554-f04690965096))
-    (pin "2" (uuid 8fc03ee8-c269-4cf6-aa78-58ec12d00754))
+    (property "LCSC" "C22966" (at 285.75 208.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6e2c3682-81cb-4121-bd8d-f22effce8a11))
+    (pin "2" (uuid 8df76ab6-ad00-419f-b7b4-004c5a8f119a))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -9031,8 +9286,11 @@
     (property "Datasheet" "~" (at 195.58 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b5d8f371-0629-4218-a37b-8492f7a72f65))
-    (pin "2" (uuid df3cded9-9ab8-4e30-8e5b-6d7d08fb7ec3))
+    (property "LCSC" "C22966" (at 195.58 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid be48ecea-8469-4e71-ace6-f0e6e02ce2ae))
+    (pin "2" (uuid bcfcb7ad-a7e7-452f-88fd-2c808f97dece))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -9042,7 +9300,7 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 193.04 223.52 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 193.04 223.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dbe554aa-03bc-473b-a16c-00646ddcff3d)
     (property "Reference" "C007" (at 196.85 221.361 0)
@@ -9051,14 +9309,17 @@
     (property "Value" "10uF" (at 196.85 223.901 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (at 194.0052 227.33 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 194.0052 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4806/KS-A_Series_DS.pdf" (at 193.04 223.52 0)
+    (property "Datasheet" "~" (at 193.04 223.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 50e89b19-a4b8-41a4-9c2a-70624a58cd46))
-    (pin "2" (uuid 6bc64c15-0a7b-4f02-8081-e430cebe828d))
+    (property "LCSC" "C19702" (at 193.04 223.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c2d36985-91df-42ec-a6f6-28aef502966c))
+    (pin "2" (uuid 709600a7-7d55-4d0c-a214-81e8eded4c45))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -9083,10 +9344,10 @@
     (property "Datasheet" "https://www.pololu.com/product/4012" (at 173.99 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0744ef9a-061b-46c2-a047-3863d01a759c))
-    (pin "2" (uuid 8ad5fb1e-716c-4ca7-900c-e62ae7efba98))
-    (pin "3" (uuid 26343b66-ae32-407d-8c5c-40e5098efaa8))
-    (pin "4" (uuid 30743f8a-8128-4d08-8500-a3241f5edbe7))
+    (pin "1" (uuid 5efc5d5d-4ca4-4b3f-aff7-eb5d81f5b7f6))
+    (pin "2" (uuid cf51fc66-6317-4ddf-9385-7fe33c6a2d93))
+    (pin "3" (uuid 5455a716-8bae-4042-a61c-d73fa77d2df0))
+    (pin "4" (uuid b4ef8089-e0fe-4014-aef4-9fa12d1f9397))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -9111,9 +9372,12 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" (at 232.41 217.17 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 9147e345-3ce2-4dff-be05-ab56dded7ff3))
-    (pin "2" (uuid 6c9e9aa8-5d19-411c-b75b-0374a11f1cb9))
-    (pin "3" (uuid 30806e21-c5db-4e8b-9dc6-237efe65eabf))
+    (property "LCSC" "C8545" (at 232.41 217.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 22aa20ff-8cb9-42fa-ae5c-b5a7e3ddb8e6))
+    (pin "2" (uuid 5938038b-fd76-490b-90db-220cf609afdc))
+    (pin "3" (uuid 20a6e908-da1e-44cb-a75a-a0c3a68ad34f))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -9138,8 +9402,11 @@
     (property "Datasheet" "~" (at 223.52 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 91a48296-4226-402c-8903-44541e25b32b))
-    (pin "2" (uuid fd0eff53-2a6b-4b68-801f-70944f08c384))
+    (property "LCSC" "C14663" (at 223.52 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ca3d3fa6-541b-4082-9d72-531bc0b6dc0d))
+    (pin "2" (uuid 377dbee8-6a5b-437d-af0b-a05f1ef2792f))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -9164,8 +9431,11 @@
     (property "Datasheet" "~" (at 379.73 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 46be7025-322e-4649-8719-7d9df2cec26e))
-    (pin "2" (uuid 39b7ac27-370f-4137-bba0-40c77ac6fa93))
+    (property "LCSC" "C25804" (at 379.73 217.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1edf5b04-8e2a-409e-bc44-51a261e1c102))
+    (pin "2" (uuid ad39a21f-0c66-4377-a545-8fece9771f94))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -9190,9 +9460,12 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" (at 288.29 217.17 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid fc9e1369-28f8-4316-956b-5e8bc210cf4c))
-    (pin "2" (uuid b012ebc8-95cf-4abf-adba-58e92f6c831b))
-    (pin "3" (uuid 4159c5f3-0674-42e6-9ad2-44d0ea780519))
+    (property "LCSC" "C8545" (at 288.29 217.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ab571974-063a-4eb2-9cc7-cbde367df4e1))
+    (pin "2" (uuid 6f06a2cd-e8a6-461e-8d71-e667b34db4b5))
+    (pin "3" (uuid 595521f7-668b-49c7-96db-02e6fc8f1053))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -9242,8 +9515,11 @@
     (property "Datasheet" "~" (at 86.36 261.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ca5b7823-4ffa-4f38-a984-4d7e8d915643))
-    (pin "2" (uuid 6a333d1b-dc7d-41b6-85a8-c01b5edf4f15))
+    (property "LCSC" "C14663" (at 86.36 261.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4a85ae55-e364-443e-a83a-385ff7acb1ec))
+    (pin "2" (uuid 621ffee8-261b-4e08-be80-b28e590affb4))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -9268,8 +9544,11 @@
     (property "Datasheet" "~" (at 30.48 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 19f2bbbc-b125-4d35-b575-2bbcce9eb501))
-    (pin "2" (uuid aeca8a17-dc27-4ea9-b9e2-36892273f1db))
+    (property "LCSC" "C57112" (at 30.48 266.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fabcb310-6ba0-4637-b11f-1ef6a037ec47))
+    (pin "2" (uuid 3d629c32-82dc-4edf-a480-91bed59aa491))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -9294,8 +9573,11 @@
     (property "Datasheet" "~" (at 267.97 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5434ad11-1753-4e7f-b3a3-60e2eff61cad))
-    (pin "2" (uuid ff14c1f8-c2d4-4947-9b8d-9c03c9ee0e8c))
+    (property "LCSC" "C22966" (at 267.97 208.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d8166821-5461-4e4f-a393-0d0d82dc70d0))
+    (pin "2" (uuid 320e86c2-c305-4602-827c-fb99d21a00e6))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -9320,8 +9602,8 @@
     (property "Datasheet" "https://datasheets.kyocera-avx.com/AVX-SCC.pdf" (at 95.25 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2a6973dd-a188-4cbc-85a4-5401891d5296))
-    (pin "2" (uuid 1af93c2c-ad8a-4e72-a825-bd80a6770281))
+    (pin "1" (uuid 3b41b0bd-acc7-47c5-9f0a-22925d83bd68))
+    (pin "2" (uuid 0678770e-62fc-4a22-9175-b96dbbd8bda6))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -9407,7 +9689,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x20_Odd_Even") (at 59.69 52.07 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid ed91c618-4f0f-49e3-b80f-18c4e0fc2c68)
     (property "Reference" "J601" (at 60.96 23.7298 0)
       (effects (font (size 1.27 1.27)))
@@ -9421,46 +9703,49 @@
     (property "Datasheet" "" (at -63.5 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9708eaf4-ed4e-4329-9f44-d111738956c3))
-    (pin "10" (uuid 50d65dd0-a270-4dcb-93bd-a6b19019ec2e))
-    (pin "11" (uuid f1f5c31a-11e8-4c84-8a15-b95bb23da6e7))
-    (pin "12" (uuid fc613605-7da6-4e31-a357-36d52e4a948d))
-    (pin "13" (uuid 8d255a68-e75b-47be-8260-d7555c461302))
-    (pin "14" (uuid b2376a20-36d5-4648-b8e9-aff78b38f74a))
-    (pin "15" (uuid 678a89db-afac-4c74-a194-5c032fc68dfd))
-    (pin "16" (uuid 353078f2-59cd-47f0-8997-f8a561e8cdf2))
-    (pin "17" (uuid 4616e06e-6e8d-414a-b84d-a3f03f556cfd))
-    (pin "18" (uuid b6284db9-0a56-4b2e-a750-0bae99111808))
-    (pin "19" (uuid dac8dfe7-81c6-46f0-86e3-70554606b6b9))
-    (pin "2" (uuid 8ccd458e-4179-40a3-9dbd-fb15c08bb4d9))
-    (pin "20" (uuid ef381f84-f058-4b97-8e7d-26110dfd720b))
-    (pin "21" (uuid 777338c7-366d-4850-8bfe-94383d4414ae))
-    (pin "22" (uuid 22fc48a1-072c-409d-a9e7-21173daa2035))
-    (pin "23" (uuid adbdd8df-0e49-410b-b755-b15bdd58f00c))
-    (pin "24" (uuid 0e2feb6d-bdc6-4a72-894f-1fc4259994be))
-    (pin "25" (uuid 07a2ff68-2ce7-4e72-8801-3135fa75395f))
-    (pin "26" (uuid 12f801e0-c14b-4d2d-ba4f-5e6505c66b73))
-    (pin "27" (uuid 2156dab6-0414-4a2e-abb5-0f99536a4911))
-    (pin "28" (uuid 7857f735-6c9c-49a1-8c69-58dc8e9922e7))
-    (pin "29" (uuid cada2534-4b75-4e78-9f03-b92ba498d7d8))
-    (pin "3" (uuid 879784b6-82e4-48e3-99e2-a776f16a7e4c))
-    (pin "30" (uuid 56694878-16be-4fd1-9a08-e5514d1144aa))
-    (pin "31" (uuid c8120545-4f09-4bcf-ab6c-abfcf2ee360e))
-    (pin "32" (uuid 633aee16-5fd3-4c0f-a7a1-6c721de47c19))
-    (pin "33" (uuid e12a7126-5006-4cf6-b477-0fc22351b6fd))
-    (pin "34" (uuid a1b4d57e-0feb-48f1-80f5-6fa0661136ac))
-    (pin "35" (uuid 4ae10d96-fe1d-47ea-9153-be64db638911))
-    (pin "36" (uuid 2f54f939-f509-4e9e-a8c5-ea1baa8331e0))
-    (pin "37" (uuid 29417532-97f5-4d3b-8f9b-cb2a8f3da2b3))
-    (pin "38" (uuid 0a363470-6fdc-4749-bc27-fc7f60b1284b))
-    (pin "39" (uuid 932eb7d7-cdb2-452b-912e-30b6b62e1065))
-    (pin "4" (uuid 8571cb5b-0694-4624-8831-847b345dfb36))
-    (pin "40" (uuid 772b5807-9a63-42d1-9e79-73513d812b71))
-    (pin "5" (uuid b4461f54-41ec-4a28-b407-7fd26311e2ff))
-    (pin "6" (uuid c0f81e33-c66f-46ee-aa6f-1687ed1a0b86))
-    (pin "7" (uuid ae5940b7-5888-4f53-b9ec-6533fd12f61f))
-    (pin "8" (uuid 3efa2679-86cc-4a24-96e6-08116e53dfa4))
-    (pin "9" (uuid b34fe68f-55af-4ac2-adfe-d041bc169973))
+    (property "LCSC" "" (at 59.69 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid df266192-eb31-471d-b46f-c60a263061d6))
+    (pin "10" (uuid 2872f428-39f0-46b9-9382-6a8a21cb168b))
+    (pin "11" (uuid 651a5090-bf06-4caf-a5ec-d31eaeea6499))
+    (pin "12" (uuid f5701965-32aa-4895-9689-a28bd2720582))
+    (pin "13" (uuid 6948896f-ced4-49c7-a3d9-873b9b361d1c))
+    (pin "14" (uuid e9c6e7c6-f5a8-4b2f-8883-ce7e9d2733ad))
+    (pin "15" (uuid a4298cae-9440-41c6-a205-48e6f327ed9e))
+    (pin "16" (uuid 44693bbd-b82a-4b91-8fe4-50eef2b77713))
+    (pin "17" (uuid 65a66f8c-5771-44b6-9934-9a6ca36776f6))
+    (pin "18" (uuid a6f8163d-3a04-4f74-a470-47fa91dba233))
+    (pin "19" (uuid 7e4eedba-1b86-4424-a089-fd4cc91902e2))
+    (pin "2" (uuid d4a37965-5dea-4eb4-b4a6-e1ce0a939c9b))
+    (pin "20" (uuid 6cfc7085-35f3-4707-93c0-199ba5380b5d))
+    (pin "21" (uuid 9c01cb1d-bc83-4c1e-899b-94ca54cbdd92))
+    (pin "22" (uuid 50e2dea2-68e7-45e7-94f7-755a12b40ca4))
+    (pin "23" (uuid dff32249-e3de-4fef-8fdb-60ac853f89e6))
+    (pin "24" (uuid 4a709fa2-65e0-438f-b256-de66fe7678ff))
+    (pin "25" (uuid caeb0b2e-5f48-433e-8c66-8537f01e79c7))
+    (pin "26" (uuid c896ceda-af90-4df6-9969-0f9a4ca819eb))
+    (pin "27" (uuid f47ed417-3170-4867-b951-38ccb0854e99))
+    (pin "28" (uuid bc1f86ce-b296-43c6-8548-2525de9c85f3))
+    (pin "29" (uuid 3cdc0f0d-8a48-49bd-951e-d089bfc4af58))
+    (pin "3" (uuid b5c73c19-a0ef-476f-9334-e2eed54b9928))
+    (pin "30" (uuid 33dd1cb4-f5b5-40b6-a34c-5148d1baf62c))
+    (pin "31" (uuid bafb676f-9790-4b71-af1c-4c26175313d5))
+    (pin "32" (uuid fd6f8cce-93bf-4ce3-bc82-2f005fb59ae9))
+    (pin "33" (uuid 85a85c26-eb70-4162-950a-48df37e0c3b6))
+    (pin "34" (uuid 6a291be6-56ea-4c13-9301-61f62685cba4))
+    (pin "35" (uuid 5d6272b4-67bc-4a52-8183-f7956bc34306))
+    (pin "36" (uuid a45d66c3-dc9a-4e3c-898f-5c470a8819fd))
+    (pin "37" (uuid 9ed9fc84-972d-492b-b0b6-f03483161e89))
+    (pin "38" (uuid de046dd2-d2c0-494f-ae25-fcd08943093a))
+    (pin "39" (uuid f41c747b-20f1-44f7-84ac-a38a5bf32079))
+    (pin "4" (uuid 6a4d7850-d348-4f95-b353-9aa4d7220fc5))
+    (pin "40" (uuid 7c64ffe4-b27d-4ac1-8e20-bcb385508a8e))
+    (pin "5" (uuid 7adac191-f323-479d-adca-35f650a5b0e3))
+    (pin "6" (uuid 2ec90c93-16f0-4cbe-83be-34fc1884abed))
+    (pin "7" (uuid aa5f3b92-b18e-405a-a72e-1ab02d220653))
+    (pin "8" (uuid 17097c02-2b5f-4576-aae7-7e7ca615f6dd))
+    (pin "9" (uuid 05f49bfe-b256-4a39-906f-8de9994335cd))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -9485,8 +9770,11 @@
     (property "Datasheet" "~" (at 358.14 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9062d737-4201-4c4a-bba7-828f2cf501d5))
-    (pin "2" (uuid b128e03e-9235-4dfb-81d5-25e16c00e82c))
+    (property "LCSC" "C57112" (at 358.14 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 39091562-1953-4888-823c-7194ea0184db))
+    (pin "2" (uuid b4119c3d-5266-423a-a651-2c8e0b35ee67))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -9561,8 +9849,8 @@
     (property "Datasheet" "~" (at 374.65 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e0ca3393-6d94-4722-b103-b964ea55bc47))
-    (pin "2" (uuid 04af623a-f830-4c98-8084-684ffbfc64e5))
+    (pin "1" (uuid 58b41fd6-79d8-48f9-9f8b-3c9bc848c4dd))
+    (pin "2" (uuid c8baa035-363f-4048-80f4-0d22005eb3ea))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -9597,7 +9885,7 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 73.66 261.62 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 73.66 261.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f28ffe6c-32f1-4a5f-a29d-f5c73680d1e3)
     (property "Reference" "C008" (at 77.47 259.461 0)
@@ -9606,14 +9894,17 @@
     (property "Value" "10uF" (at 77.47 262.001 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (at 74.6252 265.43 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 74.6252 265.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4806/KS-A_Series_DS.pdf" (at 73.66 261.62 0)
+    (property "Datasheet" "~" (at 73.66 261.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 40cd4f7b-3e32-4c5f-ae96-2628f459850c))
-    (pin "2" (uuid 7642cce5-f4b1-42d7-8932-2222d6825dce))
+    (property "LCSC" "C19702" (at 73.66 261.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid df6a9273-0b04-4f24-a108-35eed8d7b22e))
+    (pin "2" (uuid dfa7e2e1-1676-4345-aa49-58df53c280c1))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -9638,8 +9929,11 @@
     (property "Datasheet" "~" (at 321.31 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dec3794b-33a6-4a51-8be5-b4892860d0b2))
-    (pin "2" (uuid 08a8c626-3e0e-4509-9831-18fb55c92839))
+    (property "LCSC" "C4184" (at 321.31 190.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1b4620e0-7cfe-4f37-b0d7-8690c0c3cd84))
+    (pin "2" (uuid 64ae7e9a-a5ce-44d0-b2d1-238819522dd1))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -9664,8 +9958,11 @@
     (property "Datasheet" "~" (at 292.1 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 88f10bcc-bfba-4f24-8fc9-676c69853d9e))
-    (pin "2" (uuid 146bf50e-c1a0-472b-939f-ded607b5e85e))
+    (property "LCSC" "C23162" (at 292.1 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 020e4dcc-be04-4e4d-b349-5c4a92400665))
+    (pin "2" (uuid e00b219f-9fdc-44d9-a2dc-9659734d4af9))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -9690,8 +9987,11 @@
     (property "Datasheet" "~" (at 295.91 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 326069d8-b2c9-4777-87e3-cb017f04600e))
-    (pin "2" (uuid c8febca9-a169-46d6-8811-509afc4cbe8a))
+    (property "LCSC" "C22966" (at 295.91 208.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b4483597-5434-429d-b975-59a7a3ead5e1))
+    (pin "2" (uuid 4f352d84-7834-4ea3-ae2b-323a8225b6ad))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -9716,9 +10016,12 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" (at 193.04 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 62153180-c05d-4e08-856b-54e7d196c21b))
-    (pin "2" (uuid 26056c7d-0050-469b-865b-317c1cc15e16))
-    (pin "3" (uuid 21e35aed-dcac-4607-a069-43f7945c3d90))
+    (property "LCSC" "C8545" (at 193.04 62.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c935e86e-eece-433d-8297-67600e2a5209))
+    (pin "2" (uuid 6d76d239-c3a0-4d31-8e24-08d9e1f6f498))
+    (pin "3" (uuid 6bd829f1-322e-4625-ba95-e39db2ed8a43))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -9743,8 +10046,11 @@
     (property "Datasheet" "~" (at 229.87 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9876bd64-aa08-4376-b4e5-1a09e2b3f7a5))
-    (pin "2" (uuid e999cbbe-5442-41cb-8cf4-304bca403e31))
+    (property "LCSC" "C22966" (at 229.87 208.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4c5bc2a5-af94-4acb-ae6f-d1adce166661))
+    (pin "2" (uuid cd8d3980-e653-4089-b9d3-06d48591f7bb))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -9769,8 +10075,11 @@
     (property "Datasheet" "~" (at 227.33 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 63cc7ac5-5299-47c6-b6ca-36ba9c414def))
-    (pin "2" (uuid c5381d23-67b7-4b84-abc4-8871a1d2f458))
+    (property "LCSC" "C25804" (at 227.33 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 54fdec74-9572-4e63-adff-3a29106ac2d1))
+    (pin "2" (uuid 00dd36e1-09bc-4d06-b69d-59de92f9e4c2))
     (instances
       (project "DashShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
