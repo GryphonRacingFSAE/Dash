@@ -143,8 +143,8 @@ private:
             psi = 0;
         }
 
-        pos += 1;
-        psi += 1;
+        pos = 100;
+        //psi += 1;
     }
 };
 

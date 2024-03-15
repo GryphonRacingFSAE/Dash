@@ -3,6 +3,7 @@ import QtQuick.Layouts
 import CAN.MotorController
 import CAN.BMS
 import CAN.EnergyMeter
+import CAN.VCU
 
 Item {
     id: root
@@ -57,6 +58,7 @@ Item {
                 title: "Speed"
                 fontSize: root.height/20
                 precision: 0
+                value: 0
             }
 
             DataBox {
@@ -84,6 +86,7 @@ Item {
                 precision: 0;
                 low: 30
                 high: 70
+                value:43
             }
             DataBox {
                 Layout.fillHeight: true
@@ -94,6 +97,7 @@ Item {
                 precision: 0;
                 low: 25
                 high: 60
+                value: 45
             }
         }
 
@@ -113,21 +117,25 @@ Item {
                     spacing: 10
                     anchors.verticalCenter: parent.verticalCenter
                     PedalPosBox{
-                        id: breakBox
+                        id: brakeBox
+                        pedal: "brake"
                         width: 60
                         height: 300
                         borderWidth:2
                         lineColour: "red"
                         letter: "B"
+                        value: 0
                     }
 
                     PedalPosBox{
                         id: acceleratorBox
+                        pedal: "gas"
                         width: 60
                         height: 300
                         borderWidth:2
                         lineColour: "green"
                         letter: "A"
+                        value: 0
                     }
                     //tick marks
                     Rectangle{
@@ -160,16 +168,50 @@ Item {
             }
         }
 
+        Timer{
+            id: loop
+            interval: 1 
+            running: true
+            repeat: true
+
+            property double accTorq: 0
+            property double brakeTorq: 0
+
+            property double torque: 0.0;
+            property double acceleration: 0.0;
+            property double velocity: 0.0;
+            property double forceDrag: 0.0;
+            property double gearRatio: 3.5;
+            property double tireRadius: 0.203;
+            property double carMass: 200;
+            property double timePeriod: 0.001;
+
+            
+
+            onTriggered: {
+                forceDrag = 0.02*carMass*9.81 + 0.5*1.5*1.3*0.3*velocity*velocity;
+                acceleration = ((accTorq*gearRatio - brakeTorq)/tireRadius - forceDrag) / carMass;
+                velocity += timePeriod*acceleration;
+
+                if(velocity >= 0){
+                    speedBox.value = velocity/1000*3600;
+                } else {
+                    speedBox.value = 0;
+                }
+            }
+        }
+
     }
 
     RowLayout {
         id: test
-        height: root.height/5
+        height: root.height/6
         anchors {
             top: parent.top
             left: parent.left
             right: parent.right
-            margins: 10
+            topMargin: 50
+            leftMargin: 10
         }
         Battery {
             id: battery_bar
@@ -185,6 +227,20 @@ Item {
         }
     }
 
+    RowLayout {
+        anchors {
+            top: parent.top
+            horizontalCenter: parent.horizontalCenter
+        }
+
+        Rectangle{
+            width: 25
+            height: 25
+            radius: 25
+        }
+    }
+
+
     Connections {
         target: MotorController
         function onNewMotorSpeed(speed) {
@@ -194,14 +250,12 @@ Item {
             let wheel_circumfrence_m = wheel_diameter_inch * 0.0254 * 3.14; // inch -> m = inch * 0.0254
             let wheel_surface_speed_mpm = wheel_circumfrence_m * wheel_rpm;
             let wheel_surface_speed_kmph = wheel_surface_speed_mpm / 1000 * 60 // m/min -> km/h = m / 1000 * 60,
-
-            speedBox.value = `${wheel_surface_speed_kmph.toFixed(0)}`
         }
         function onNewCoolantTemp(temp) {
-            coolantTempBox.value = temp
+            coolantTempBox.value = 45
         }
         function onNewAnalogInput2(temp) { // oil temp
-            oilTempBox.value = temp
+            oilTempBox.value = 43
         }
         function onNewMotorTemp(temp) {
             motorTempBox.value = temp
@@ -247,7 +301,7 @@ Item {
     Connections {
         target: BMS
         function onNewStateOfCharge(percent) {
-            battery_bar.percent = percent
+            battery_bar.percent = 87.2
         }
         function onNewAvgTemp(temp) {}
         function onNewHighestTemp(temp) {
@@ -257,5 +311,16 @@ Item {
         function onNewAvgPackCurrent(current) {}
         function onNewVoltage(voltage) {}
         function onNewOpenVoltage(voltage){}
+    }
+
+    Connections{
+        target: VCU
+        function onNewAcceleratorPos(pos){
+            loop.accTorq = 150*pos/100/2.8
+        }
+
+        function onNewBrakePressure(psi){
+            loop.brakeTorq = 500*psi/200
+        }
     }
 }

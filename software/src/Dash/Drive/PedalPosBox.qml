@@ -5,15 +5,18 @@ import CAN.VCU
 
 Item{
     id: root
+    required property string pedal; 
     required property int borderWidth;
     required property string lineColour;
     required property string letter;
     property int tickWidth: 10
     property int tickHeight: 2
+    property double value;
 
     Rectangle{
         width: root.width
         height: root.height
+        property double value
 
         color: "white"
         border{
@@ -75,9 +78,20 @@ Item{
     Connections {
         target: VCU
         function onNewAcceleratorPos(pos){
-            if(pos <= 100){
-                positionBar.percent = pos;
+            if(root.pedal == "gas"){
+                if(pos <= 100){
+                    positionBar.percent = pos;
+                }
+
+                root.value = pos
+            }
+        }
+
+        function onNewBrakePressure(psi){
+            if(root.pedal == "brake"){
+                positionBar.percent = psi/200 * 100
             }
         }
     }
+    
 }
