@@ -15,9 +15,9 @@ Item{
         width: root.width
         height: root.height
 
-        color: "black"
+        color: "white"
         border{
-            color: "white"
+            color: "black"
             width: borderWidth
         }
 
@@ -63,6 +63,7 @@ Item{
                 required property int modelData
                 width: root.tickWidth
                 height: root.tickHeight
+                color: "black"
                 anchors{
                     right: parent.right
                     bottom: parent.bottom

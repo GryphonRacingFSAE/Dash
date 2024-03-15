@@ -100,73 +100,61 @@ Item {
         //Speed
         ColumnLayout {
             Layout.preferredWidth: parent.width/16*6
-
-            Rectangle {
-                id: torqueContainer
-                color: "grey"
-                radius: height/3
-                Layout.fillWidth: true;
-                implicitHeight: main.height/10
-
-                Text{
-                    id: torqueValue
-                    text: ""
-                    font.bold: true
-                    color:"black"
-                    font.pointSize: main.height/15
-                    anchors{
-                        horizontalCenter: parent.horizontalCenter
-                        verticalCenter: parent.verticalCenter
+            anchors.verticalCenter: parent.verticalCenter
+            
+            Rectangle{
+                id: rightPanel
+                width: 200
+                height: 300
+                color: "white"
+                anchors.verticalCenter: parent.verticalCenter
+                // pedal position displays
+                RowLayout{
+                    spacing: 10
+                    anchors.verticalCenter: parent.verticalCenter
+                    PedalPosBox{
+                        id: breakBox
+                        width: 60
+                        height: 300
+                        borderWidth:2
+                        lineColour: "red"
+                        letter: "B"
                     }
-                }
-            }
 
-            Rectangle {
-                id: torqueContainer2
-                color: "grey"
-                radius: height/3
-                Layout.fillWidth: true;
-                implicitHeight: main.height/10
-
-                Text{
-                    id: torqueValue2
-                    text: ""
-                    font.bold: true
-                    color:"black"
-                    font.pointSize: main.height/15
-                    anchors{
-                        horizontalCenter: parent.horizontalCenter
-                        verticalCenter: parent.verticalCenter
+                    PedalPosBox{
+                        id: acceleratorBox
+                        width: 60
+                        height: 300
+                        borderWidth:2
+                        lineColour: "green"
+                        letter: "A"
                     }
-                }
-            }
-            Item {
-                Layout.fillWidth: true
-                implicitHeight: 160
-                Text {
-                    id: speedValue
-                    font.pointSize: main.height/3.5
-                    opacity: 0.9
-                    font.bold: true
-                    color:"black"
-                    text: ""
-                    anchors{
-                        top: parent.top
-                        topMargin: main.height/10
-                        horizontalCenter: parent.horizontalCenter
-                    }
-                }
+                    //tick marks
+                    Rectangle{
+                        width: 60
+                        height: 300
+                        color: "white"
+                        // border{
+                        //     width: 2
+                        //     color: "white"
+                        // }
+                        Repeater{
+                            id: ticks
+                            model: 11
+                            Text{
+                                text: `${(index)*10}`+"%"
+                                font.family: "Consolas"
+                                font.pointSize: 10
+                                font.bold: true
+                                color: "black"
 
-                Text {
-                    font.family: "Consolas"
-                    text: "kmph"
-                    font.bold: true
-                    color:"black"
-                    font.pointSize: main.height/15
-                    anchors{
-                        top:speedValue.bottom
-                        horizontalCenter: parent.horizontalCenter
-                        topMargin: - main.height/15
+                                anchors{
+                                    left: parent.left
+                                    bottom: parent.bottom
+                                    bottomMargin: (parent.height) * (index)*10/100 - 7
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -183,11 +171,11 @@ Item {
             right: parent.right
             margins: 10
         }
-        // Battery {
-        //     id: battery_bar
-        //     Layout.fillHeight: true
-        //     Layout.fillWidth: true
-        // }
+        Battery {
+            id: battery_bar
+            Layout.fillHeight: true
+            Layout.fillWidth: true
+        }
         //Logo
         Image {
             id: logo
@@ -259,7 +247,7 @@ Item {
     Connections {
         target: BMS
         function onNewStateOfCharge(percent) {
-            //battery_bar.percent = percent
+            battery_bar.percent = percent
         }
         function onNewAvgTemp(temp) {}
         function onNewHighestTemp(temp) {
