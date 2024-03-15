@@ -9,6 +9,8 @@
         <file>Drive/Battery.qml</file>
         <file>Drive/DataBox.qml</file>
         <file>Drive/SpeedBox.qml</file>
+        <file>Drive/PedalPosBox.qml</file>
+        <file>Drive/DisplayBox.qml</file>
         
         <file>Debug/Debug_A.qml</file>
         <file>Debug/Debug_B.qml</file>
@@ -21,6 +23,7 @@
 
         <file>Tuning/Tuning.qml</file>
         <file>Tuning/TractionControl.qml</file>
+        <file>Drive/Demo2024.qml</file>
     </qresource>
 
     <qresource prefix="/images">

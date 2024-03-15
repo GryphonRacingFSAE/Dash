@@ -33,6 +33,10 @@ class VCU : public QObject, public CAN::Interface {
         readTorqueMapCSV();
         readTcTuneCSV();
 
+        //pedal position
+        can_signal_dispatch["ACCELERATOR_POSITION"] = &&VCU::newAcceleratorPos;
+        can_signal_dispatch["BRAKE_PRESSURE"] = &&VCU::newAcceleratorPos;
+
         // Startup HW interface
         this->CAN::Interface::startReceiving("can0", VCU::filters, VCU::num_of_filters, VCU::timeout_ms);
     }
@@ -84,6 +88,8 @@ class VCU : public QObject, public CAN::Interface {
     void currentTcTuneChanged();
     void profileIdChanged();
     void tcTuneIdChanged();
+    void newAcceleratorPos(float pos);
+    void newBrakePressure(float psi);
 
   public:
     Q_INVOKABLE void sendTorqueMap(QList<int> torque_map) {

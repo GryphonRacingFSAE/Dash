@@ -7,7 +7,7 @@
 #include <rapidcsv.h>
 
 namespace fake {
-class VCU : public QObject {
+class VCU : public QObject, public FakeInterface {
     Q_OBJECT
     Q_PROPERTY(QList<int> currentTorqueMap MEMBER m_current_torque_map NOTIFY currentTorqueMapChanged)
     Q_PROPERTY(int profileId MEMBER m_profile_id NOTIFY profileIdChanged)
@@ -30,6 +30,8 @@ class VCU : public QObject {
 
         readTorqueMapCSV();
         readTcTuneCSV();
+
+        this->FakeInterface::startReceiving();
     }
 
     Q_INVOKABLE void saveTorqueMapCSV(QList<int> torque_map) {
@@ -79,6 +81,8 @@ class VCU : public QObject {
     void currentTcTuneChanged();
     void profileIdChanged();
     void tcTuneIdChanged();
+    void newAcceleratorPos(float pos);
+    void newBrakePressure(float psi);
 
   public:
     Q_INVOKABLE void sendTorqueMap(QList<int> torque_map) {
@@ -122,6 +126,26 @@ class VCU : public QObject {
     static constexpr int8_t torque_map_offset = 128 - 25;
     static constexpr int torque_map_max = std::numeric_limits<int8_t>::max() + torque_map_offset; // Estimated is around -22Nm
     static constexpr int torque_map_min = std::numeric_limits<int8_t>::min() + torque_map_offset; // Estimated is around +230Nm
+
+private:
+    void generateValues() {
+        static float pos = 0;
+        static float psi = 0;
+
+        emit newAcceleratorPos(pos);
+        emit newBrakePressure(psi);
+
+        if(pos > 100){
+            pos = 0;
+        }
+
+        if(psi > 100){
+            psi = 0;
+        }
+
+        pos += 1;
+        psi += 1;
+    }
 };
 
 } // namespace fake

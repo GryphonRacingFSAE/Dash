@@ -183,11 +183,11 @@ Item {
             right: parent.right
             margins: 10
         }
-        Battery {
-            id: battery_bar
-            Layout.fillHeight: true
-            Layout.fillWidth: true
-        }
+        // Battery {
+        //     id: battery_bar
+        //     Layout.fillHeight: true
+        //     Layout.fillWidth: true
+        // }
         //Logo
         Image {
             id: logo
@@ -259,7 +259,7 @@ Item {
     Connections {
         target: BMS
         function onNewStateOfCharge(percent) {
-            battery_bar.percent = percent
+            //battery_bar.percent = percent
         }
         function onNewAvgTemp(temp) {}
         function onNewHighestTemp(temp) {

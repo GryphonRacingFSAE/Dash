@@ -22,7 +22,7 @@ ApplicationWindow {
     }
 
     property int selected_display: 0;
-    readonly property list<string> display_sources: ["Drive/Drive.qml", "Debug/Debug_A.qml", "Debug/Debug_B.qml", "Debug/Debug_C.qml", "Debug/Debug_D.qml", "Debug/SMU_Temps.qml", "Tuning/Tuning.qml", "Tuning/TractionControl.qml"];
+    readonly property list<string> display_sources: ["Drive/Demo2024.qml", "Debug/Debug_A.qml", "Debug/Debug_B.qml", "Debug/Debug_C.qml", "Debug/Debug_D.qml", "Debug/SMU_Temps.qml", "Tuning/Tuning.qml", "Tuning/TractionControl.qml"];
 
     Item {
         anchors.fill: parent
