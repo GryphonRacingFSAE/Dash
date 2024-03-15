@@ -10,7 +10,7 @@
 
 namespace real {
 
-class VCU : public QObject, public CAN::Interface {
+class VCU : public QObject, public CAN::CAN::DBCInterface<VCu> {
     Q_OBJECT
     Q_PROPERTY(QList<int> currentTorqueMap MEMBER m_current_torque_map NOTIFY currentTorqueMapChanged)
     Q_PROPERTY(int profileId MEMBER m_profile_id NOTIFY profileIdChanged)
@@ -34,8 +34,8 @@ class VCU : public QObject, public CAN::Interface {
         readTcTuneCSV();
 
         //pedal position
-        can_signal_dispatch["ACCELERATOR_POSITION"] = &&VCU::newAcceleratorPos;
-        can_signal_dispatch["BRAKE_PRESSURE"] = &&VCU::newAcceleratorPos;
+        can_signal_dispatch["ACCELERATOR_POSITION"] = &VCU::newAcceleratorPos;
+        can_signal_dispatch["BRAKE_PRESSURE"] = &VCU::newAcceleratorPos;
 
         // Startup HW interface
         this->CAN::Interface::startReceiving("can0", VCU::filters, VCU::num_of_filters, VCU::timeout_ms);
