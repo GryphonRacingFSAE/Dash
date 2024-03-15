@@ -10,7 +10,7 @@
 
 namespace real {
 
-class VCU : public QObject, public CAN::CAN::DBCInterface<VCu> {
+class VCU : public QObject, public CAN::DBCInterface<VCU> {
     Q_OBJECT
     Q_PROPERTY(QList<int> currentTorqueMap MEMBER m_current_torque_map NOTIFY currentTorqueMapChanged)
     Q_PROPERTY(int profileId MEMBER m_profile_id NOTIFY profileIdChanged)
