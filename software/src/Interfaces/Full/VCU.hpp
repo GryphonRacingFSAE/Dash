@@ -20,7 +20,7 @@ class VCU : public QObject, public CAN::DBCInterface<VCU> {
     Q_PROPERTY(int tcTuneId MEMBER m_tc_tune_id NOTIFY tcTuneIdChanged)
   public:
     VCU(const std::string& torque_map_directory = "")
-        : QObject(nullptr), m_torque_map_directory(torque_map_directory), m_profile_id(0), m_tc_tune_id(0) {
+        : QObject(nullptr), m_torque_map_directory(torque_map_directory), m_profile_id(0), m_tc_tune_id(0), DBCInterface("VCU.dbc") {
 
         if (!std::filesystem::exists(m_torque_map_directory) || !std::filesystem::is_directory(m_torque_map_directory)) {
             fmt::print("Torque map directory doesn't exist!");
